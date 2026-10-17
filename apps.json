@@ -1,12 +1,30 @@
 [
-  {"name":"F-Droid","owner":"f-droid","repo":"fdroidclient","description":"Free app store","category":"Tools"},
-  {"name":"Krita","owner":"KDE","repo":"krita","description":"Digital painting","category":"Art"},
-  {"name":"Bitwarden","owner":"bitwarden","repo":"mobile","description":"Password manager","category":"Tools"},
   {
-  "name": "PadhteRaho",
-  "owner": "Aditya Saini",
-  "repo": "https://github.com/adityasaini404/PadhteRaho-Apk",
-  "description": "PadhteRaho is a free educational app. for college  students",
-  "category": "Educational"
-}
+    "name": "F-Droid",
+    "owner": "f-droid",
+    "repo": "fdroidclient",
+    "description": "Free app store",
+    "category": "Tools"
+  },
+  {
+    "name": "Krita",
+    "owner": "KDE",
+    "repo": "krita",
+    "description": "Digital painting",
+    "category": "Art"
+  },
+  {
+    "name": "Bitwarden",
+    "owner": "bitwarden",
+    "repo": "mobile",
+    "description": "Password manager",
+    "category": "Tools"
+  },
+  {
+    "name": "PadhteRaho",
+    "owner": "adityasaini404",
+    "repo": "PadhteRaho-Apk",
+    "description": "PadhteRaho is a free educational app for college students",
+    "category": "Educational"
+  }
 ]
