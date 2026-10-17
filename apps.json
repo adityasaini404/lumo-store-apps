@@ -1,7 +1,7 @@
 [
   {"name":"F-Droid","owner":"f-droid","repo":"fdroidclient","description":"Free app store","category":"Tools"},
   {"name":"Krita","owner":"KDE","repo":"krita","description":"Digital painting","category":"Art"},
-  {"name":"Bitwarden","owner":"bitwarden","repo":"mobile","description":"Password manager","category":"Tools"}
+  {"name":"Bitwarden","owner":"bitwarden","repo":"mobile","description":"Password manager","category":"Tools"},
   {
   "name": "PadhteRaho",
   "owner": "Aditya Saini",
