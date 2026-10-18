@@ -31,18 +31,20 @@
     "category": "Art",
     "author": "KDE",
     "screenshots": []
-  }
+  },
   {
     "name": "Padhteraho",
     "id": "padhteraho",
     "description": "it is an unique and open source app for Student to access the it cources in free which available on YouTube.",
     "icon": "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/Icon.png",
-    "repoUrl": "https://github.com/https://github.com/adityasaini404/PadhteRaho-Apk",
-    "githubRepo": "https://github.com/adityasaini404/PadhteRaho-Apk",
+    "repoUrl": "https://github.com/adityasaini404/PadhteRaho-Apk",
+    "githubRepo": "adityasaini404/PadhteRaho-Apk",
     "category": "Educational",
     "author": "Aditya Saini",
     "packageName": "com.example.padhateraho",
-    "screenshots": ["https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Home.png,","https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Courses.png,","https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Notes.png"]
+    "screenshots": ["https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Home.png,",
+      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Courses.png,",
+      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Notes.png"]
   }
   
 ]
