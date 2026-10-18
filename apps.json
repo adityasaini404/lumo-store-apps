@@ -30,7 +30,10 @@
     "githubRepo": "KDE/krita",
     "category": "Art",
     "author": "KDE",
-    "screenshots": []
+    "screenshots": ["https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Home.png",
+    "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Courses.png",
+    "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Notes.png"
+    ]
   },
   {
   "name": "Padhteraho",
