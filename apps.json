@@ -1,57 +1,5 @@
 [
   {
-    "name": "padhteraho",
-    "id": "padhteraho",
-    "description": "It is educational app ",
-    "icon": "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/Icon.png",
-    "repoUrl": "https://github.com/https://github.com/adityasaini404/PadhteRaho-Apk",
-    "githubRepo": "https://github.com/adityasaini404/PadhteRaho-Apk",
-    "category": "Educational",
-    "author": "Aditya Saini",
-    "packageName": "com.example.padhteraho",
-    "screenshots": ["https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Home.png",
-      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Courses.png",
-      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Notes.png",
-      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Players.png",
-      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Playlists.png"]
-  },
-  {
-    "name": "F-Droid",
-    "id": "fdroid",
-    "description": "Free and open-source app store",
-    "icon": "https://github.com/f-droid.png",
-    "repoUrl": "https://github.com/f-droid/fdroidclient",
-    "githubRepo": "f-droid/fdroidclient",
-    "category": "Utility",
-    "author": "f-droid",
-    "screenshots": []
-  },
-  {
-    "name": "Bitwarden",
-    "id": "bitwarden",
-    "description": "Open-source password manager",
-    "icon": "https://github.com/bitwarden.png",
-    "repoUrl": "https://github.com/bitwarden/mobile",
-    "githubRepo": "bitwarden/mobile",
-    "category": "Utility",
-    "author": "bitwarden",
-    "screenshots": []
-  },
-  {
-    "name": "Krita",
-    "id": "krita",
-    "description": "Digital painting studio",
-    "icon": "https://github.com/KDE.png",
-    "repoUrl": "https://github.com/KDE/krita",
-    "githubRepo": "KDE/krita",
-    "category": "Art",
-    "author": "KDE",
-    "screenshots": ["https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Home.png",
-    "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Courses.png",
-    "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Notes.png"
-    ]
-  },
-  {
   "name": "Padhteraho",
   "id": "padhteraho",
   "description": "it is an unique and open source app for Student to access the it cources in free which available on YouTube.",
@@ -92,78 +40,6 @@
     "screenshots": []
   },
   {
-    "name": "Joplin",
-    "id": "joplin",
-    "description": "A markdown-based note-taking app with sync and end-to-end encryption. Keep your notes organized and secure.",
-    "icon": "https://github.com/laurent22.png",
-    "repoUrl": "https://github.com/laurent22/joplin",
-    "githubRepo": "laurent22/joplin",
-    "category": "Productivity",
-    "author": "laurent22",
-    "packageName": "net.cozic.joplin",
-    "screenshots": []
-  },
-  {
-    "name": "Rocket.Chat",
-    "id": "rocketchat",
-    "description": "A self-hostable, Slack-like online chat platform. Communicate and collaborate securely.",
-    "icon": "https://github.com/RocketChat.png",
-    "repoUrl": "https://github.com/RocketChat/Rocket.Chat",
-    "githubRepo": "RocketChat/Rocket.Chat",
-    "category": "Social",
-    "author": "RocketChat",
-    "packageName": "chat.rocket.android",
-    "screenshots": []
-  },
-  {
-    "name": "Shadowsocks",
-    "id": "shadowsocks",
-    "description": "A secure socks5 proxy client, widely used for bypassing network censorship and protecting your privacy.",
-    "icon": "https://github.com/shadowsocks.png",
-    "repoUrl": "https://github.com/shadowsocks/shadowsocks-android",
-    "githubRepo": "shadowsocks/shadowsocks-android",
-    "category": "Utility",
-    "author": "shadowsocks",
-    "packageName": "com.github.shadowsocks",
-    "screenshots": []
-  },
-  {
-    "name": "Telegram",
-    "id": "telegram",
-    "description": "The official, open-source Android client for the Telegram messaging service. Fast and secure messaging.",
-    "icon": "https://github.com/DrKLO.png",
-    "repoUrl": "https://github.com/DrKLO/Telegram",
-    "githubRepo": "DrKLO/Telegram",
-    "category": "Social",
-    "author": "DrKLO",
-    "packageName": "org.telegram.messenger",
-    "screenshots": []
-  },
-  {
-    "name": "Signal",
-    "id": "signal",
-    "description": "A private messenger for secure calling and messaging. State-of-the-art end-to-end encryption.",
-    "icon": "https://github.com/signalapp.png",
-    "repoUrl": "https://github.com/signalapp/Signal-Android",
-    "githubRepo": "signalapp/Signal-Android",
-    "category": "Social",
-    "author": "signalapp",
-    "packageName": "org.thoughtcrime.securesms",
-    "screenshots": []
-  },
-  {
-    "name": "Mindustry",
-    "id": "mindustry",
-    "description": "A sandbox tower-defense game with resource management. Build, defend, and conquer.",
-    "icon": "https://github.com/Anuken.png",
-    "repoUrl": "https://github.com/Anuken/Mindustry",
-    "githubRepo": "Anuken/Mindustry",
-    "category": "Games",
-    "author": "Anuken",
-    "packageName": "io.anuke.mindustry",
-    "screenshots": []
-  },
-  {
     "name": "SmartTube",
     "id": "smarttube",
     "description": "An ad-free client for watching YouTube on Android TV boxes, with a built-in updater.",
@@ -173,18 +49,6 @@
     "category": "Media",
     "author": "yuliskov",
     "packageName": "com.liskovsoft.smarttubetv.beta",
-    "screenshots": []
-  },
-  {
-    "name": "ViMusic",
-    "id": "vimusic",
-    "description": "An Android application for streaming music from YouTube Music. Ad-free and with background playback.",
-    "icon": "https://github.com/vfsfitvnm.png",
-    "repoUrl": "https://github.com/vfsfitvnm/ViMusic",
-    "githubRepo": "vfsfitvnm/ViMusic",
-    "category": "Media",
-    "author": "vfsfitvnm",
-    "packageName": "it.vfsfitvnm.vimusic",
     "screenshots": []
   },
   {
@@ -212,52 +76,16 @@
     "screenshots": []
   },
   {
-    "name": "KernelSU",
-    "id": "kernelsu",
-    "description": "A Kernel based root solution for Android. Manage root access and modules securely.",
-    "icon": "https://github.com/tiann.png",
-    "repoUrl": "https://github.com/tiann/KernelSU",
-    "githubRepo": "tiann/KernelSU",
-    "category": "Developer",
-    "author": "tiann",
-    "packageName": "me.weishu.kernelsu",
-    "screenshots": []
-  },
-  {
-    "name": "Element X",
-    "id": "element-x",
-    "description": "Android Matrix messenger application using the Matrix Rust SDK and Jetpack Compose. Secure and decentralized.",
-    "icon": "https://github.com/element-hq.png",
-    "repoUrl": "https://github.com/element-hq/element-x-android",
-    "githubRepo": "element-hq/element-x-android",
-    "category": "Social",
-    "author": "element-hq",
-    "packageName": "io.element.android.x",
-    "screenshots": []
-  },
-  {
-    "name": "Now in Android",
-    "id": "now-in-android",
-    "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose. A reference for modern Android development.",
-    "icon": "https://github.com/android.png",
-    "repoUrl": "https://github.com/android/nowinandroid",
-    "githubRepo": "android/nowinandroid",
-    "category": "Developer",
-    "author": "android",
-    "packageName": "com.google.samples.apps.nowinandroid",
-    "screenshots": []
-  },
-  {
-    "name": "Podroid",
-    "id": "podroid",
-    "description": "A rootless Android app that boots Alpine Linux: run containers (Podman/Docker/LXC) and GUI desktop apps.",
-    "icon": "https://github.com/ExTV.png",
-    "repoUrl": "https://github.com/ExTV/Podroid",
-    "githubRepo": "ExTV/Podroid",
-    "category": "Developer",
-    "author": "ExTV",
-    "packageName": "com.excp.podroid",
-    "screenshots": []
+    "name": "Openclaw",
+    "id": "openclaw",
+    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+    "icon": "https://avatars.githubusercontent.com/u/252820863",
+    "repoUrl": "https://github.com/openclaw/openclaw",
+    "githubRepo": "openclaw/openclaw",
+    "category": "Tools",
+    "author": "openclaw",
+    "packageName": "",
+    "screenshots": ["https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-dark.png"]
   }
 
   
