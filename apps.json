@@ -3,13 +3,17 @@
     "name": "padhteraho",
     "id": "padhteraho",
     "description": "It is educational app ",
-    "icon": "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/Icon.png",
+    "icon": "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/Icon.png",
     "repoUrl": "https://github.com/https://github.com/adityasaini404/PadhteRaho-Apk",
     "githubRepo": "https://github.com/adityasaini404/PadhteRaho-Apk",
     "category": "Educational",
     "author": "Aditya Saini",
     "packageName": "com.example.padhteraho",
-    "screenshots": ["https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Home.png","https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Courses.png","https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Notes.png","https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Players.png","https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Playlists.png"]
+    "screenshots": ["https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Home.png",
+      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Courses.png",
+      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Notes.png",
+      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Players.png",
+      "https://github.com/adityasaini404/PadhteRaho-Apk/blob/main/screenshots/Playlists.png"]
   },
   {
     "name": "F-Droid",
