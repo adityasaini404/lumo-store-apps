@@ -44,7 +44,7 @@
   "githubRepo": "adityasaini404/PadhteRaho-Apk",
   "category": "Educational",
   "author": "Aditya Saini",
-  "packageName": "com.example.padhateraho",
+  "packageName": "com.example.padhteraho",
   "screenshots": [
     "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Home.png",
     "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Courses.png",
