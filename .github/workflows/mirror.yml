@@ -1,0 +1,55 @@
+name: Build mirror.json
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # हर 6 घंटे
+  workflow_dispatch:         # manually भी चला सकें
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate mirror.json
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request, os
+          token = os.environ['GH_TOKEN']
+          with open('apps.json') as f:
+              apps = json.load(f)
+          out = {}
+          for app in apps:
+              repo = app.get('githubRepo', '')
+              if '/' not in repo:
+                  continue
+              owner, name = repo.split('/', 1)
+              req = urllib.request.Request(
+                  f'https://api.github.com/repos/{owner}/{name}/releases/latest',
+                  headers={'Authorization': f'Bearer {token}', 'User-Agent': 'LumoMirror'}
+              )
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      data = json.load(r)
+                  apk = next((a for a in data.get('assets', []) if a['name'].endswith('.apk')), None)
+                  out[repo] = {
+                      'version': data.get('tag_name', ''),
+                      'releaseNotes': data.get('body', ''),
+                      'size': apk['size'] if apk else 0,
+                      'downloadUrl': apk['browser_download_url'] if apk else ''
+                  }
+              except Exception as e:
+                  print('skip', repo, e)
+          with open('mirror.json', 'w') as f:
+              json.dump(out, f, ensure_ascii=False, indent=2)
+          EOF
+
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add mirror.json
+          git commit -m "Update mirror.json" || exit 0
+          git push
