@@ -2,12 +2,14 @@ name: Build mirror.json
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # हर 6 घंटे
-  workflow_dispatch:         # manually भी चला सकें
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -17,21 +19,22 @@ jobs:
         run: |
           python3 - <<'EOF'
           import json, urllib.request, os
-          token = os.environ['GH_TOKEN']
-          with open('apps.json') as f:
+          token = os.environ.get('GH_TOKEN', '')
+          with open('apps.json', encoding='utf-8') as f:
               apps = json.load(f)
           out = {}
           for app in apps:
               repo = app.get('githubRepo', '')
               if '/' not in repo:
                   continue
-              owner, name = repo.split('/', 1)
+              headers = {'User-Agent': 'LumoMirror'}
+              if token:
+                  headers['Authorization'] = f'Bearer {token}'
               req = urllib.request.Request(
-                  f'https://api.github.com/repos/{owner}/{name}/releases/latest',
-                  headers={'Authorization': f'Bearer {token}', 'User-Agent': 'LumoMirror'}
-              )
+                  f'https://api.github.com/repos/{repo}/releases/latest',
+                  headers=headers)
               try:
-                  with urllib.request.urlopen(req) as r:
+                  with urllib.request.urlopen(req, timeout=15) as r:
                       data = json.load(r)
                   apk = next((a for a in data.get('assets', []) if a['name'].endswith('.apk')), None)
                   out[repo] = {
@@ -40,13 +43,15 @@ jobs:
                       'size': apk['size'] if apk else 0,
                       'downloadUrl': apk['browser_download_url'] if apk else ''
                   }
+                  print('ok', repo)
               except Exception as e:
                   print('skip', repo, e)
-          with open('mirror.json', 'w') as f:
+          with open('mirror.json', 'w', encoding='utf-8') as f:
               json.dump(out, f, ensure_ascii=False, indent=2)
+          print(f'done, {len(out)} apps')
           EOF
 
-      - name: Commit
+      - name: Commit mirror.json
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
