@@ -17,15 +17,18 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          python3 - <<'EOF'
-          import json, urllib.request, os
-          token = os.environ.get('GH_TOKEN', '')
+          python3 - <<'PYEOF'
+          import json, urllib.request, os, sys
+          token = os.environ.get('GH_TOKEN', '').strip()
+          print(f"token present: {bool(token)}")
           with open('apps.json', encoding='utf-8') as f:
               apps = json.load(f)
+          print(f"apps count: {len(apps)}")
           out = {}
           for app in apps:
-              repo = app.get('githubRepo', '')
+              repo = app.get('githubRepo', '').strip()
               if '/' not in repo:
+                  print(f"skip (no githubRepo): {app.get('name')}")
                   continue
               headers = {'User-Agent': 'LumoMirror'}
               if token:
@@ -43,18 +46,19 @@ jobs:
                       'size': apk['size'] if apk else 0,
                       'downloadUrl': apk['browser_download_url'] if apk else ''
                   }
-                  print('ok', repo)
+                  print(f"ok {repo} -> {data.get('tag_name','')}")
               except Exception as e:
-                  print('skip', repo, e)
+                  print(f"skip {repo}: {e}")
           with open('mirror.json', 'w', encoding='utf-8') as f:
               json.dump(out, f, ensure_ascii=False, indent=2)
-          print(f'done, {len(out)} apps')
-          EOF
+          print(f"done, {len(out)} apps written")
+          PYEOF
 
       - name: Commit mirror.json
         run: |
-          git config user.name github-actions
-          git config user.email actions@github.com
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add mirror.json
-          git commit -m "Update mirror.json" || exit 0
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "Update mirror.json"
           git push
