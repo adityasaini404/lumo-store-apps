@@ -1,5 +1,34 @@
 [
   {
+    "name": "Obtainium",
+    "id": "obtainium",
+    "description": "Get Android app updates straight from the source.",
+    "icon": "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/icon_small.png",
+    "repoUrl": "https://github.com/https://github-store.org/app?repo=ImranR98/Obtainium",
+    "githubRepo": "https://github-store.org/app?repo=ImranR98/Obtainium",
+    "category": "Developer",
+    "author": "ImranR98",
+    "packageName": "",
+    "screenshots": ["https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/1.apps.png",
+      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/2.dark_theme.png",
+      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/3.material_you.png",
+      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/4.app.png",
+      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/5.app_opts.png",
+      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/6.app_webview.png"]
+  },
+  {
+    "name": "Openclaw",
+    "id": "openclaw",
+    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+    "icon": "https://avatars.githubusercontent.com/u/252820863",
+    "repoUrl": "https://github.com/openclaw/openclaw",
+    "githubRepo": "openclaw/openclaw",
+    "category": "Tools",
+    "author": "openclaw",
+    "packageName": "",
+    "screenshots": ["https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-dark.png"]
+  },
+  {
   "name": "Padhteraho",
   "id": "padhteraho",
   "description": "it is an unique and open source app for Student to access the it cources in free which available on YouTube.",
@@ -74,36 +103,5 @@
     "author": "ReVanced",
     "packageName": "app.revanced.manager.flutter",
     "screenshots": []
-  },
-  {
-    "name": "Openclaw",
-    "id": "openclaw",
-    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-    "icon": "https://avatars.githubusercontent.com/u/252820863",
-    "repoUrl": "https://github.com/openclaw/openclaw",
-    "githubRepo": "openclaw/openclaw",
-    "category": "Tools",
-    "author": "openclaw",
-    "packageName": "",
-    "screenshots": ["https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-dark.png"]
-  },
-  {
-    "name": "Obtainium",
-    "id": "obtainium",
-    "description": "Get Android app updates straight from the source.",
-    "icon": "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/icon_small.png",
-    "repoUrl": "https://github.com/https://github-store.org/app?repo=ImranR98/Obtainium",
-    "githubRepo": "https://github-store.org/app?repo=ImranR98/Obtainium",
-    "category": "Developer",
-    "author": "ImranR98",
-    "packageName": "",
-    "screenshots": ["https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/1.apps.png",
-      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/2.dark_theme.png",
-      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/3.material_you.png",
-      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/4.app.png",
-      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/5.app_opts.png",
-      "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/6.app_webview.png"]
   }
-
-  
 ]
