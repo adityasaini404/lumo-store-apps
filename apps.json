@@ -58,7 +58,7 @@
     "author": "ReVanced",
     "packageName": "app.revanced.manager.flutter",
     "screenshots": []
-  }
+  },
   {
     "name": "Obtainium",
     "id": "obtainium",
@@ -103,5 +103,5 @@
     "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Courses.png",
     "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Notes.png"
   ]
-},
+}
 ]
