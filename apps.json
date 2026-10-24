@@ -1,65 +1,5 @@
 [
   {
-    "name": "NewPipe",
-    "id": "newpipe",
-    "description": "A libre lightweight streaming front-end for Android. Watch YouTube videos without ads and in the background.",
-    "icon": "https://github.com/TeamNewPipe.png",
-    "repoUrl": "https://github.com/TeamNewPipe/NewPipe",
-    "githubRepo": "TeamNewPipe/NewPipe",
-    "category": "Media",
-    "author": "TeamNewPipe",
-    "packageName": "org.schabi.newpipe",
-    "screenshots": []
-  },
-  {
-    "name": "Termux",
-    "id": "termux",
-    "description": "A powerful terminal emulator and Linux environment for Android, extendible by a variety of packages.",
-    "icon": "https://github.com/termux.png",
-    "repoUrl": "https://github.com/termux/termux-app",
-    "githubRepo": "termux/termux-app",
-    "category": "Developer",
-    "author": "termux",
-    "packageName": "com.termux",
-    "screenshots": []
-  },
-  {
-    "name": "SmartTube",
-    "id": "smarttube",
-    "description": "An ad-free client for watching YouTube on Android TV boxes, with a built-in updater.",
-    "icon": "https://github.com/yuliskov.png",
-    "repoUrl": "https://github.com/yuliskov/SmartTube",
-    "githubRepo": "yuliskov/SmartTube",
-    "category": "Media",
-    "author": "yuliskov",
-    "packageName": "com.liskovsoft.smarttubetv.beta",
-    "screenshots": []
-  },
-  {
-    "name": "FairScan",
-    "id": "fairscan",
-    "description": "An Android app to scan your documents — simple, respectful, and private. No ads or trackers.",
-    "icon": "https://github.com/pynicolas.png",
-    "repoUrl": "https://github.com/pynicolas/FairScan",
-    "githubRepo": "pynicolas/FairScan",
-    "category": "Utility",
-    "author": "pynicolas",
-    "packageName": "org.fairscan.app",
-    "screenshots": []
-  },
-  {
-    "name": "ReVanced Manager",
-    "id": "revanced-manager",
-    "description": "Application to use ReVanced on Android. Patch your favorite apps with additional features.",
-    "icon": "https://github.com/ReVanced.png",
-    "repoUrl": "https://github.com/ReVanced/revanced-manager",
-    "githubRepo": "ReVanced/revanced-manager",
-    "category": "Utility",
-    "author": "ReVanced",
-    "packageName": "app.revanced.manager.flutter",
-    "screenshots": []
-  },
-  {
     "name": "Obtainium",
     "id": "obtainium",
     "description": "Get Android app updates straight from the source.",
@@ -75,18 +15,6 @@
       "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/4.app.png",
       "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/5.app_opts.png",
       "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/screenshots/6.app_webview.png"]
-  },
-  {
-    "name": "Openclaw",
-    "id": "openclaw",
-    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-    "icon": "https://avatars.githubusercontent.com/u/252820863",
-    "repoUrl": "https://github.com/openclaw/openclaw",
-    "githubRepo": "openclaw/openclaw",
-    "category": "Tools",
-    "author": "openclaw",
-    "packageName": "",
-    "screenshots": ["https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-dark.png"]
   },
   {
   "name": "Padhteraho",
