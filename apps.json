@@ -103,5 +103,41 @@
     "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Courses.png",
     "https://raw.githubusercontent.com/adityasaini404/PadhteRaho-Apk/main/screenshots/Notes.png"
   ]
-}
+},
+  {
+    "name": "Netly ",
+    "id": "netly",
+    "description": "Netly is an Android media downloader focused on providing a clean and easy-to-use experience for downloading video and audio content.",
+    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/netly_app_logo_1785996012538.jpg",
+    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/Netly",
+    "githubRepo": "sumitkumartiwari19-sudo/Netly",
+    "category": "Media",
+    "author": "Sumit Kumar Tiwari ",
+    "packageName": "com.skt.netly",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-23-86_c3cf8b3ee7f115f3eafd046e67a00e32.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-30-16_c3cf8b3ee7f115f3eafd046e67a00e32.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-35-24_c3cf8b3ee7f115f3eafd046e67a00e32.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-48-44_c3cf8b3ee7f115f3eafd046e67a00e32.jpg"
+    ]
+  },
+  {
+   "name": "SWAR Music ",
+   "id": "swarmusic",
+   "description": "🎶 SWAR Music SWAR Music — Your music, your vibe.SWAR Music is a modern, smooth, and feature-rich Android music player built with Kotlin, designed to provide a clean and enjoyable music experience while keeping your music library easily accessible.",
+   "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/SWAR%20Music_icon.png",
+   "repoUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music",
+   "githubRepo": "sumitkumartiwari19-sudo/SWAR-Music",
+   "category": "Media",
+   "author": "Sumit Kumar Tiwari ",
+   "packageName": "com.skt.swaemusicplayer",
+   "screenshots": [
+     "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-22-34-89_4cb8d6df0c724449f2aafcd88ddfda5a.jpg",
+     "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-22-50-56_4cb8d6df0c724449f2aafcd88ddfda5a.jpg",
+     "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-22-57-76_4cb8d6df0c724449f2aafcd88ddfda5a.jpg",
+     "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-23-32-19_4cb8d6df0c724449f2aafcd88ddfda5a.jpg",
+     "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-24-25-79_4cb8d6df0c724449f2aafcd88ddfda5a.jpg",
+     "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-24-45-30_4cb8d6df0c724449f2aafcd88ddfda5a.jpg"
+   ]
+   }
 ]
