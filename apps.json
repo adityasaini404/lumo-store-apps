@@ -69,6 +69,18 @@
    ]
    },
   {
+    "name": "Echo-Music",
+    "id": "echo-music",
+    "description": "An YouTube Music Client",
+    "icon": "https://avatars.githubusercontent.com/u/258176326",
+    "repoUrl": "https://github.com/EchoMusicApp/Echo-Music",
+    "githubRepo": "EchoMusicApp/Echo-Music",
+    "category": "Media",
+    "author": "EchoMusicApp",
+    "packageName": "echo.music.iad1tya",
+    "screenshots": ["https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/Home.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/Material%20you%20music%20page.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/Apple%20inspired%20music%20page.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/lyrics.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/search%20page.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/library.png"]
+  },
+  {
     "name": "LumoStore",
     "id": "lumostore",
     "description": "A free, open-source app store for Android — no trackers, no rate limits, no accounts. Powered by Kotlin, Jetpack Compose, and GitHub Actions.",
