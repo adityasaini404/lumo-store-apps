@@ -3,24 +3,113 @@
     "version": "v1.7.3",
     "releaseNotes": "## What's Changed\r\n* Fix Uptodown search URLs and dates, and localize the Galaxy Store option by @HotKids in https://github.com/ImranR98/Obtainium/pull/3450\r\n* Make the source URL in the app info dialog a link again by @bercedev in https://github.com/ImranR98/Obtainium/pull/3451\r\n* Latest german translation by @R7010A in https://github.com/ImranR98/Obtainium/pull/3452\r\n* Update ja.json by @bluefly000 in https://github.com/ImranR98/Obtainium/pull/3440\r\n* Add an option to include GitHub draft releases by @bercedev in https://github.com/ImranR98/Obtainium/pull/3447\r\n* Add an option to use the time an update was found as its release date by @bercedev in https://github.com/ImranR98/Obtainium/pull/3453\r\n* feat(translations): Add greek translation by @metropontikas in https://github.com/ImranR98/Obtainium/pull/3454\r\n* Only offer the newest build of a version from F-Droid repos by @bercedev in https://github.com/ImranR98/Obtainium/pull/3455\r\n* Request update ownership on Shizuku installs (#3445) by @ImranR98 in https://github.com/ImranR98/Obtainium/pull/3456\r\n\r\n## New Contributors\r\n* @metropontikas made their first contribution in https://github.com/ImranR98/Obtainium/pull/3454\r\n\r\n**Full Changelog**: https://github.com/ImranR98/Obtainium/compare/v1.7.2...v1.7.3",
     "size": 34532014,
-    "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-fdroid-release.apk"
+    "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-fdroid-release.apk",
+    "downloadCount": 77778,
+    "variants": [
+      {
+        "filename": "app-arm64-v8a-fdroid-release.apk",
+        "arch": "arm64-v8a",
+        "size": 34532014,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-fdroid-release.apk",
+        "downloadCount": 4900
+      },
+      {
+        "filename": "app-arm64-v8a-release.apk",
+        "arch": "arm64-v8a",
+        "size": 34532014,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-release.apk",
+        "downloadCount": 63819
+      },
+      {
+        "filename": "app-armeabi-v7a-fdroid-release.apk",
+        "arch": "armeabi-v7a",
+        "size": 30444216,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-armeabi-v7a-fdroid-release.apk",
+        "downloadCount": 214
+      },
+      {
+        "filename": "app-armeabi-v7a-release.apk",
+        "arch": "armeabi-v7a",
+        "size": 30444216,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-armeabi-v7a-release.apk",
+        "downloadCount": 1315
+      },
+      {
+        "filename": "app-fdroid-release.apk",
+        "arch": "universal",
+        "size": 93924789,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-fdroid-release.apk",
+        "downloadCount": 1169
+      },
+      {
+        "filename": "app-release.apk",
+        "arch": "universal",
+        "size": 93924789,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-release.apk",
+        "downloadCount": 6057
+      },
+      {
+        "filename": "app-x86_64-fdroid-release.apk",
+        "arch": "x86_64",
+        "size": 36858527,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-x86_64-fdroid-release.apk",
+        "downloadCount": 61
+      },
+      {
+        "filename": "app-x86_64-release.apk",
+        "arch": "x86_64",
+        "size": 36858527,
+        "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-x86_64-release.apk",
+        "downloadCount": 243
+      }
+    ]
   },
   "adityasaini404/PadhteRaho-Apk": {
     "version": "v1.1.0",
     "releaseNotes": "# 🚀 PadhteRaho v1.1.0 — Roadmaps Update\r\n\r\nA new learning update is here! 🎉\r\n\r\nThis version introduces the **Roadmaps** section, helping students follow a structured learning path for different programming languages and IT skills.\r\n\r\n## ✨ What's New\r\n\r\n### 🗺️ Roadmaps\r\n\r\n* Added a dedicated **Roadmaps** section.\r\n* Category-wise learning roadmaps.\r\n* Step-by-step learning paths for different programming languages.\r\n* Roadmaps for various IT and technical skills.\r\n* Beginner-friendly structure to help students understand what to learn next.\r\n\r\n### 📚 Courses\r\n\r\n* Improved course organization.\r\n* Category-wise courses with separate playlists.\r\n* Easier navigation between learning content.\r\n\r\n### 🎨 UI & Improvements\r\n\r\n* Improved user experience.\r\n* Minor UI improvements.\r\n* Performance and stability improvements.\r\n* Bug fixes.\r\n\r\n## 📥 Installation\r\n\r\n1. Download the latest APK below.\r\n2. Install the APK on your Android device.\r\n3. Open PadhteRaho and explore the new Roadmaps section.\r\n\r\n## 📌 Previous Version\r\n\r\nIf you are already using an older version, install this version to get the latest features and improvements.\r\n\r\n---\r\n\r\n### 👨‍💻 Developed by\r\n\r\n**Aditya Saini**\r\n\r\nHappy Learning! ❤️\r\n",
     "size": 10375958,
-    "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v1.1.0/PadhteRaho1.1.0.apk"
+    "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v1.1.0/PadhteRaho1.1.0.apk",
+    "downloadCount": 429,
+    "variants": [
+      {
+        "filename": "PadhteRaho1.1.0.apk",
+        "arch": "universal",
+        "size": 10375958,
+        "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v1.1.0/PadhteRaho1.1.0.apk",
+        "downloadCount": 429
+      }
+    ]
   },
   "sumitkumartiwari19-sudo/Netly": {
     "version": "v1.3",
     "releaseNotes": "🚀 Netly v1.3 — Performance & Experience Update\r\n\r\nNetly is a modern video and audio downloader designed for a fast, smooth, and convenient downloading experience.\r\n\r\n✨ What's New\r\n\r\n- 📥 Multi-Platform Downloads — Improved support for publicly accessible media.\r\n- 🎬 Enhanced Video Player — Improved mini-player/fullscreen transitions and playback controls.\r\n- ⚡ Download Performance — Optimized large-file processing and audio/video merging.\r\n- 🎵 Media Notifications — Improved playback notifications with album artwork.\r\n- 💾 Persistent Settings — Remembers playback speed and aspect ratio.\r\n- 🔄 Download Synchronization — Better synchronization when media files are deleted.\r\n- 🔔 Smart Notifications — Download completion and app update alerts.\r\n- 🖼️ Improved Media Handling — Better media detection, artwork, and playback experience.\r\n- 📱 Picture-in-Picture — Improved PiP behavior.\r\n- 🛠️ Bug Fixes & Stability — Various improvements for a smoother experience.\r\n\r\nDownload Netly v1.3 APK below and enjoy the improved experience!",
     "size": 31184424,
-    "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/v1.3/Netly.apk"
+    "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/v1.3/Netly.apk",
+    "downloadCount": 640,
+    "variants": [
+      {
+        "filename": "Netly.apk",
+        "arch": "universal",
+        "size": 31184424,
+        "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/v1.3/Netly.apk",
+        "downloadCount": 640
+      }
+    ]
   },
   "sumitkumartiwari19-sudo/SWAR-Music": {
     "version": "v1.1",
     "releaseNotes": "# SWAR Music v1.1\r\n\r\n## ✨ New Features\r\n\r\n**Now Playing & Playback**\r\n- Redesigned Now Playing screen with a Song/Video toggle, and a Like / Lyrics / Save / Download action row\r\n- Album art now rotates (vinyl-style) during playback, with a rotational drag gesture on the art to seek forward/backward (audio mode only)\r\n- Smooth, symmetric shared-element animation between the mini player and the Now Playing screen, in both directions\r\n- Mini player now continues playing actual video (not just a static thumbnail) when collapsing from Video mode\r\n- Picture-in-Picture (PiP) support for video playback, including auto-enter on Home button press\r\n- Video quality selector (Auto / 1080p / 720p / 480p), shown only in Video mode\r\n- Audio now streams at the highest available quality\r\n\r\n**Search & Discovery**\r\n- Search-as-you-type suggestions\r\n- A highlighted \"Top Result\" card above regular search results for the best-matching track\r\n- Songs played from Search now continue with related-song recommendations (instead of just the next search result), using both YouTube's related data and keyword matching, refined over time based on which songs get skipped quickly\r\n- India-focused Home recommendations (Bollywood, regional, trending charts) with filtering to exclude movies, trailers, and other non-song content from search and suggestions\r\n- Additional swipeable rows on Home: Trending, Made For You, and Based on Your History\r\n\r\n**Library & Playlists**\r\n- Full custom + YouTube-imported playlist support, including sharing and individually deleting any playlist\r\n- A 3-dot menu on every song (Home, Search, and inside playlists) with Like, Save/Remove from playlist, Download/Delete, Share, and Add to Queue\r\n- Confirmation prompts before any delete/remove action app-wide\r\n- Swipeable Library categories (Playlists / Downloads / Liked / History)\r\n- Offline message with a direct shortcut to your downloaded music when there's no internet connection\r\n\r\n**Settings & Updates**\r\n- Full Settings screen: Account, Appearance (including Light/Dark/Follow System), Playback, Downloads, Data Usage, Notifications, Library & History, Privacy, Backup, and About\r\n- In-app update checker connected to GitHub Releases — notifies you on every launch until you update\r\n- \"Share SWAR Music\" option to invite others to the app\r\n\r\n**Downloads**\r\n- Offline downloads now reliably save to your device and play back with no internet connection, and are preferred automatically even when you're online\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Fixed a launch crash and added built-in crash diagnostics for easier troubleshooting\r\n- Fixed search and playback failures caused by an outdated extractor and missing initialization\r\n- Fixed the wrong song playing when tapping a search result\r\n- Fixed severely throttled download speeds and inaccurate/jumpy download progress\r\n- Fixed downloads disappearing after reaching 100%, and downloads not saving an actual file to the device\r\n- Fixed the Like button not saving your liked songs\r\n- Fixed overlapping/broken layout on the Search screen and Now Playing screen (status bar overlap, misaligned header, broken result rows)\r\n- Fixed album art rendering upside-down, and a brief wrong-shape flash during player collapse\r\n- Fixed the mini player being taller than intended\r\n- Fixed theme colors not updating immediately when switching between Light and Dark\r\n- Fixed Library screen layout issues (count label, header not scrolling, visual corner glitches on cards)\r\n- Fixed inconsistent/duplicate entries on the Downloads screen\r\n- Fixed ads not displaying correctly (wrong sizing, a non-functional ad unit, one ad slot not loading) and an ad overlapping the mini player\r\n- Fixed a crash related to the search engine in release builds\r\n- Fixed all user data being lost on every app update\r\n- Removed playlists that shipped built into the app — your Library now only shows playlists you've created or saved\r\n- \"Download only on Wi-Fi\" is now off by default, so downloads work on mobile data out of the box\r\n- ",
     "size": 33652226,
-    "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk"
+    "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk",
+    "downloadCount": 685,
+    "variants": [
+      {
+        "filename": "SWAR.Music.apk",
+        "arch": "universal",
+        "size": 33652226,
+        "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk",
+        "downloadCount": 685
+      }
+    ]
   }
 }
