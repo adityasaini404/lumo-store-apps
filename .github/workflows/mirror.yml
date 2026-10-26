@@ -5,50 +5,91 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
       - name: Generate mirror.json
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           python3 - <<'PYEOF'
-          import json, urllib.request, os, sys
+          import json, urllib.request, os, re
+
           token = os.environ.get('GH_TOKEN', '').strip()
           print(f"token present: {bool(token)}")
+
           with open('apps.json', encoding='utf-8') as f:
               apps = json.load(f)
           print(f"apps count: {len(apps)}")
+
+          def detect_arch(filename):
+              n = filename.lower()
+              if 'arm64' in n or 'aarch64' in n: return 'arm64-v8a'
+              if 'armeabi-v7a' in n or 'armv7' in n: return 'armeabi-v7a'
+              if 'x86_64' in n: return 'x86_64'
+              if 'x86' in n: return 'x86'
+              if 'universal' in n: return 'universal'
+              return 'universal'
+
           out = {}
           for app in apps:
               repo = app.get('githubRepo', '').strip()
               if '/' not in repo:
                   print(f"skip (no githubRepo): {app.get('name')}")
                   continue
+
               headers = {'User-Agent': 'LumoMirror'}
               if token:
                   headers['Authorization'] = f'Bearer {token}'
+
               req = urllib.request.Request(
                   f'https://api.github.com/repos/{repo}/releases/latest',
                   headers=headers)
+
               try:
                   with urllib.request.urlopen(req, timeout=15) as r:
                       data = json.load(r)
-                  apk = next((a for a in data.get('assets', []) if a['name'].endswith('.apk')), None)
+
+                  apk_assets = [a for a in data.get('assets', [])
+                                if a['name'].endswith('.apk')]
+
+                  if not apk_assets:
+                      print(f"skip {repo}: no APK assets")
+                      continue
+
+                  variants = []
+                  for a in apk_assets:
+                      variants.append({
+                          'filename': a['name'],
+                          'arch': detect_arch(a['name']),
+                          'size': a['size'],
+                          'downloadUrl': a['browser_download_url'],
+                          'downloadCount': a.get('download_count', 0)
+                      })
+
+                  total_downloads = sum(v['downloadCount'] for v in variants)
+
+                  # Pick main asset (arm64 preferred)
+                  main = next((v for v in variants if v['arch'] == 'arm64-v8a'), variants[0])
+
                   out[repo] = {
                       'version': data.get('tag_name', ''),
                       'releaseNotes': data.get('body', ''),
-                      'size': apk['size'] if apk else 0,
-                      'downloadUrl': apk['browser_download_url'] if apk else ''
+                      'size': main['size'],
+                      'downloadUrl': main['downloadUrl'],
+                      'downloadCount': total_downloads,
+                      'variants': variants
                   }
-                  print(f"ok {repo} -> {data.get('tag_name','')}")
+                  print(f"ok {repo} -> {data.get('tag_name','')} ({len(variants)} apks, {total_downloads} downloads)")
               except Exception as e:
                   print(f"skip {repo}: {e}")
+
           with open('mirror.json', 'w', encoding='utf-8') as f:
               json.dump(out, f, ensure_ascii=False, indent=2)
           print(f"done, {len(out)} apps written")
