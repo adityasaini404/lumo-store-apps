@@ -67,22 +67,5 @@
      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-24-25-79_4cb8d6df0c724449f2aafcd88ddfda5a.jpg",
      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Harmonic-Player-/main/Screenshot_2026-10-24-16-24-45-30_4cb8d6df0c724449f2aafcd88ddfda5a.jpg"
    ]
-   },
-  {
-    "name": "LumoStore",
-    "id": "lumostore",
-    "description": "A free, open-source app store for Android — no trackers, no rate limits, no accounts. Powered by Kotlin, Jetpack Compose, and GitHub Actions.",
-    "icon": "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/ic_lumo_logo.png",
-    "repoUrl": "https://github.com/adityasaini404/LumoStore",
-    "githubRepo": "adityasaini404/LumoStore",
-    "category": "Developer",
-    "author": "adityasaini404",
-    "packageName": "com.lumo.store",
-    "screenshots": ["https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/splashscreen.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/home.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/installedapps.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/settings.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/publishapp.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/theme.png"]
-  }
+   }
 ]
