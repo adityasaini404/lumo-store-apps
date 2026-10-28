@@ -81,25 +81,6 @@
     "screenshots": ["https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/Home.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/Material%20you%20music%20page.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/Apple%20inspired%20music%20page.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/lyrics.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/search%20page.png","https://raw.githubusercontent.com/EchoMusicApp/Echo-Music/main/Screenshots/library.png"]
   },
   {
-    "name": "LumoStore",
-    "id": "lumostore",
-    "description": "A free, open-source app store for Android — no trackers, no rate limits, no accounts. Powered by Kotlin, Jetpack Compose, and GitHub Actions.",
-    "icon": "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/ic_lumo_logo.png",
-    "repoUrl": "https://github.com/adityasaini404/LumoStore",
-    "githubRepo": "adityasaini404/LumoStore",
-    "category": "Developer",
-    "author": "adityasaini404",
-    "packageName": "com.lumo.store",
-    "screenshots": [
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/splashscreen.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/home.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/installedapps.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/settings.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/publishapp.png",
-      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/theme.png"
-    ]
-  },
-  {
     "id": "youtube-revanced",
     "name": "YouTube Morphe",
     "description": "The ultimate YouTube experience. Ad-free, SponsorBlock, background playback, return YouTube dislike, and much more.",
@@ -396,6 +377,25 @@
       "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
       "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.jpg",
       "https://github.com/JunkFood02/Seal/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.jpg"
+    ]
+  },
+  {
+    "name": "LumoStore",
+    "id": "lumostore",
+    "description": "A free, open-source app store for Android — no trackers, no rate limits, no accounts. Powered by Kotlin, Jetpack Compose, and GitHub Actions.",
+    "icon": "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/ic_lumo_logo.png",
+    "repoUrl": "https://github.com/adityasaini404/LumoStore",
+    "githubRepo": "adityasaini404/LumoStore",
+    "category": "Developer",
+    "author": "adityasaini404",
+    "packageName": "com.lumo.store",
+    "screenshots": [
+      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/splashscreen.png",
+      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/home.png",
+      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/installedapps.png",
+      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/settings.png",
+      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/publishapp.png",
+      "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/theme.png"
     ]
   }
 ]
