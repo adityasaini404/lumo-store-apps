@@ -4,63 +4,63 @@
     "releaseNotes": "## What's Changed\r\n* Fix Uptodown search URLs and dates, and localize the Galaxy Store option by @HotKids in https://github.com/ImranR98/Obtainium/pull/3450\r\n* Make the source URL in the app info dialog a link again by @bercedev in https://github.com/ImranR98/Obtainium/pull/3451\r\n* Latest german translation by @R7010A in https://github.com/ImranR98/Obtainium/pull/3452\r\n* Update ja.json by @bluefly000 in https://github.com/ImranR98/Obtainium/pull/3440\r\n* Add an option to include GitHub draft releases by @bercedev in https://github.com/ImranR98/Obtainium/pull/3447\r\n* Add an option to use the time an update was found as its release date by @bercedev in https://github.com/ImranR98/Obtainium/pull/3453\r\n* feat(translations): Add greek translation by @metropontikas in https://github.com/ImranR98/Obtainium/pull/3454\r\n* Only offer the newest build of a version from F-Droid repos by @bercedev in https://github.com/ImranR98/Obtainium/pull/3455\r\n* Request update ownership on Shizuku installs (#3445) by @ImranR98 in https://github.com/ImranR98/Obtainium/pull/3456\r\n\r\n## New Contributors\r\n* @metropontikas made their first contribution in https://github.com/ImranR98/Obtainium/pull/3454\r\n\r\n**Full Changelog**: https://github.com/ImranR98/Obtainium/compare/v1.7.2...v1.7.3",
     "size": 34532014,
     "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-fdroid-release.apk",
-    "downloadCount": 126156,
+    "downloadCount": 131314,
     "variants": [
       {
         "filename": "app-arm64-v8a-fdroid-release.apk",
         "arch": "arm64-v8a",
         "size": 34532014,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-fdroid-release.apk",
-        "downloadCount": 7991
+        "downloadCount": 8330
       },
       {
         "filename": "app-arm64-v8a-release.apk",
         "arch": "arm64-v8a",
         "size": 34532014,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-arm64-v8a-release.apk",
-        "downloadCount": 99440
+        "downloadCount": 103021
       },
       {
         "filename": "app-armeabi-v7a-fdroid-release.apk",
         "arch": "armeabi-v7a",
         "size": 30444216,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-armeabi-v7a-fdroid-release.apk",
-        "downloadCount": 328
+        "downloadCount": 341
       },
       {
         "filename": "app-armeabi-v7a-release.apk",
         "arch": "armeabi-v7a",
         "size": 30444216,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-armeabi-v7a-release.apk",
-        "downloadCount": 2428
+        "downloadCount": 2518
       },
       {
         "filename": "app-fdroid-release.apk",
         "arch": "universal",
         "size": 93924789,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-fdroid-release.apk",
-        "downloadCount": 2084
+        "downloadCount": 2151
       },
       {
         "filename": "app-release.apk",
         "arch": "universal",
         "size": 93924789,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-release.apk",
-        "downloadCount": 13248
+        "downloadCount": 14277
       },
       {
         "filename": "app-x86_64-fdroid-release.apk",
         "arch": "x86_64",
         "size": 36858527,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-x86_64-fdroid-release.apk",
-        "downloadCount": 83
+        "downloadCount": 88
       },
       {
         "filename": "app-x86_64-release.apk",
         "arch": "x86_64",
         "size": 36858527,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.3/app-x86_64-release.apk",
-        "downloadCount": 554
+        "downloadCount": 588
       }
     ]
   },
@@ -69,14 +69,14 @@
     "releaseNotes": "# 🚀 PadhteRaho v1.1.0 — Roadmaps Update\r\n\r\nA new learning update is here! 🎉\r\n\r\nThis version introduces the **Roadmaps** section, helping students follow a structured learning path for different programming languages and IT skills.\r\n\r\n## ✨ What's New\r\n\r\n### 🗺️ Roadmaps\r\n\r\n* Added a dedicated **Roadmaps** section.\r\n* Category-wise learning roadmaps.\r\n* Step-by-step learning paths for different programming languages.\r\n* Roadmaps for various IT and technical skills.\r\n* Beginner-friendly structure to help students understand what to learn next.\r\n\r\n### 📚 Courses\r\n\r\n* Improved course organization.\r\n* Category-wise courses with separate playlists.\r\n* Easier navigation between learning content.\r\n\r\n### 🎨 UI & Improvements\r\n\r\n* Improved user experience.\r\n* Minor UI improvements.\r\n* Performance and stability improvements.\r\n* Bug fixes.\r\n\r\n## 📥 Installation\r\n\r\n1. Download the latest APK below.\r\n2. Install the APK on your Android device.\r\n3. Open PadhteRaho and explore the new Roadmaps section.\r\n\r\n## 📌 Previous Version\r\n\r\nIf you are already using an older version, install this version to get the latest features and improvements.\r\n\r\n---\r\n\r\n### 👨‍💻 Developed by\r\n\r\n**Aditya Saini**\r\n\r\nHappy Learning! ❤️\r\n",
     "size": 10375958,
     "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v1.1.0/PadhteRaho1.1.0.apk",
-    "downloadCount": 470,
+    "downloadCount": 472,
     "variants": [
       {
         "filename": "PadhteRaho1.1.0.apk",
         "arch": "universal",
         "size": 10375958,
         "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v1.1.0/PadhteRaho1.1.0.apk",
-        "downloadCount": 470
+        "downloadCount": 472
       }
     ]
   },
@@ -85,14 +85,14 @@
     "releaseNotes": "🚀 Netly v1.3 — Performance & Experience Update\r\n\r\nNetly is a modern video and audio downloader designed for a fast, smooth, and convenient downloading experience.\r\n\r\n✨ What's New\r\n\r\n- 📥 Multi-Platform Downloads — Improved support for publicly accessible media.\r\n- 🎬 Enhanced Video Player — Improved mini-player/fullscreen transitions and playback controls.\r\n- ⚡ Download Performance — Optimized large-file processing and audio/video merging.\r\n- 🎵 Media Notifications — Improved playback notifications with album artwork.\r\n- 💾 Persistent Settings — Remembers playback speed and aspect ratio.\r\n- 🔄 Download Synchronization — Better synchronization when media files are deleted.\r\n- 🔔 Smart Notifications — Download completion and app update alerts.\r\n- 🖼️ Improved Media Handling — Better media detection, artwork, and playback experience.\r\n- 📱 Picture-in-Picture — Improved PiP behavior.\r\n- 🛠️ Bug Fixes & Stability — Various improvements for a smoother experience.\r\n\r\nDownload Netly v1.3 APK below and enjoy the improved experience!",
     "size": 31184424,
     "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/v1.3/Netly.apk",
-    "downloadCount": 723,
+    "downloadCount": 729,
     "variants": [
       {
         "filename": "Netly.apk",
         "arch": "universal",
         "size": 31184424,
         "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/v1.3/Netly.apk",
-        "downloadCount": 723
+        "downloadCount": 729
       }
     ]
   },
@@ -101,14 +101,14 @@
     "releaseNotes": "# SWAR Music v1.1\r\n\r\n## ✨ New Features\r\n\r\n**Now Playing & Playback**\r\n- Redesigned Now Playing screen with a Song/Video toggle, and a Like / Lyrics / Save / Download action row\r\n- Album art now rotates (vinyl-style) during playback, with a rotational drag gesture on the art to seek forward/backward (audio mode only)\r\n- Smooth, symmetric shared-element animation between the mini player and the Now Playing screen, in both directions\r\n- Mini player now continues playing actual video (not just a static thumbnail) when collapsing from Video mode\r\n- Picture-in-Picture (PiP) support for video playback, including auto-enter on Home button press\r\n- Video quality selector (Auto / 1080p / 720p / 480p), shown only in Video mode\r\n- Audio now streams at the highest available quality\r\n\r\n**Search & Discovery**\r\n- Search-as-you-type suggestions\r\n- A highlighted \"Top Result\" card above regular search results for the best-matching track\r\n- Songs played from Search now continue with related-song recommendations (instead of just the next search result), using both YouTube's related data and keyword matching, refined over time based on which songs get skipped quickly\r\n- India-focused Home recommendations (Bollywood, regional, trending charts) with filtering to exclude movies, trailers, and other non-song content from search and suggestions\r\n- Additional swipeable rows on Home: Trending, Made For You, and Based on Your History\r\n\r\n**Library & Playlists**\r\n- Full custom + YouTube-imported playlist support, including sharing and individually deleting any playlist\r\n- A 3-dot menu on every song (Home, Search, and inside playlists) with Like, Save/Remove from playlist, Download/Delete, Share, and Add to Queue\r\n- Confirmation prompts before any delete/remove action app-wide\r\n- Swipeable Library categories (Playlists / Downloads / Liked / History)\r\n- Offline message with a direct shortcut to your downloaded music when there's no internet connection\r\n\r\n**Settings & Updates**\r\n- Full Settings screen: Account, Appearance (including Light/Dark/Follow System), Playback, Downloads, Data Usage, Notifications, Library & History, Privacy, Backup, and About\r\n- In-app update checker connected to GitHub Releases — notifies you on every launch until you update\r\n- \"Share SWAR Music\" option to invite others to the app\r\n\r\n**Downloads**\r\n- Offline downloads now reliably save to your device and play back with no internet connection, and are preferred automatically even when you're online\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Fixed a launch crash and added built-in crash diagnostics for easier troubleshooting\r\n- Fixed search and playback failures caused by an outdated extractor and missing initialization\r\n- Fixed the wrong song playing when tapping a search result\r\n- Fixed severely throttled download speeds and inaccurate/jumpy download progress\r\n- Fixed downloads disappearing after reaching 100%, and downloads not saving an actual file to the device\r\n- Fixed the Like button not saving your liked songs\r\n- Fixed overlapping/broken layout on the Search screen and Now Playing screen (status bar overlap, misaligned header, broken result rows)\r\n- Fixed album art rendering upside-down, and a brief wrong-shape flash during player collapse\r\n- Fixed the mini player being taller than intended\r\n- Fixed theme colors not updating immediately when switching between Light and Dark\r\n- Fixed Library screen layout issues (count label, header not scrolling, visual corner glitches on cards)\r\n- Fixed inconsistent/duplicate entries on the Downloads screen\r\n- Fixed ads not displaying correctly (wrong sizing, a non-functional ad unit, one ad slot not loading) and an ad overlapping the mini player\r\n- Fixed a crash related to the search engine in release builds\r\n- Fixed all user data being lost on every app update\r\n- Removed playlists that shipped built into the app — your Library now only shows playlists you've created or saved\r\n- \"Download only on Wi-Fi\" is now off by default, so downloads work on mobile data out of the box\r\n- ",
     "size": 33652226,
     "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk",
-    "downloadCount": 708,
+    "downloadCount": 710,
     "variants": [
       {
         "filename": "SWAR.Music.apk",
         "arch": "universal",
         "size": 33652226,
         "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk",
-        "downloadCount": 708
+        "downloadCount": 710
       }
     ]
   },
@@ -117,14 +117,14 @@
     "releaseNotes": "Every update is meant to make Echo a little better from every corner. Not everything here will be for you, but there's something in this release for most people: a brand-new Music Flow, your Spotify library inside Echo, and a big round of Android Auto and playback fixes. Here's what's new.\r\n\r\n## Highlights\r\n\r\n- Music Flow is now a full-screen, swipe-through reel with synced lyrics, reachable from the navigation bar.\r\n- Browse your live Spotify library and playlists, and stream them on demand.\r\n- Extension audio is now preferred when available, with lossless FLAC support and a FLAC badge in the player.\r\n- Set separate audio quality limits for Wi-Fi and Cellular, with estimated data usage for each level.\r\n- Android Auto now shows artwork reliably, offers Home recommendations, and can autoplay when you connect.\r\n\r\n## New Features\r\n\r\n### Music Flow\r\n- **Swipe-based discovery:** Browse music in a vertical reel with synchronised lyrics and playback controls (#643).\r\n- **Immersive layout:** Edge-to-edge artwork or Canvas background, with tap to play or pause.\r\n- **Nothing OS menus:** The top menu is now a native bottom sheet with grouped cards, subtitles, and icons.\r\n- **New entry point:** Music Flow moved from the Home banner to the navigation bar's More options sheet, above Shuffle. Access can be turned on or off in preferences.\r\n\r\n### Spotify\r\n- **Live library browsing:** A new Spotify tab in Library shows your profile, liked songs count, and playlists. It can also be set as the default Library tab in Appearance settings.\r\n- **Playlist detail screen:** Browse tracklists with a cover hero, Play All, Shuffle, and an indicator for the playing track.\r\n- **On-demand streaming:** Spotify tracks are matched to YouTube Music streams when played, with no copies added to your local database.\r\n- **Pinned Liked Songs:** Liked Songs now sits at the top of your playlist list with gradient cover art and a pinned badge.\r\n\r\n### Player and Audio\r\n- **10-second seek buttons:** Optional skip back and forward buttons in both player layouts, available through settings search (#623).\r\n- **Network-aware audio quality:** Choose separate quality ceilings for Wi-Fi and Cellular. Each level shows its bitrate and estimated data use per hour. Metered connections and Data Saver are respected.\r\n- **Data plan protection:** High-bandwidth extension FLAC and ALAC streams are only used at Lossless or High quality.\r\n\r\n### Extensions\r\n- **Prefer Extension Audio:** New toggle in Extension Settings. When on, streams are resolved through enabled extensions before YouTube Music.\r\n- **Lossless FLAC support:** FLAC streams now show the lossless badge in the player.\r\n- **Easier setup:** Extension names are filled in automatically when you add one.\r\n- **Faster playback:** Extension audio is preloaded for upcoming songs in the queue.\r\n\r\n### Android Auto\r\n- **Autoplay on connect:** New setting, off by default, that resumes your queue when you connect.\r\n- **Home recommendations:** New Home section with suggested and recent items. YouTube playlists now show 20 songs instead of 10.\r\n- **Reliable artwork:** Covers now appear on the instrument cluster, in compact layouts, and in long lists.\r\n\r\n### Home\r\n- **Hero carousel:** New Home carousel with song selection (#643).\r\n\r\n### Localisation\r\n- **Spanish:** Complete translation of core, Echo, and updater strings, in a consistent informal tone (#647, #648).\r\n- **French:** Complete translation, plus new Discord and Music Flow strings (#618, #656).\r\n- **Bengali:** Updated translation (#636).\r\n\r\n## Improvements\r\n\r\n### Interface\r\n- **Spotify screens:** Library and playlist detail redesigned to match the Nothing OS 5.0 look, with transparent top and bottom navigation strips on playlist detail.\r\n- **Local library:** Removed the duplicate top bar in embedded mode, restored filter chips, standardised padding to 16dp, and added a cleaner empty state with scan actions.\r\n- **Play and pause icons:** Now use rounded Material Symbols.\r\n- **Music Flow:** Simplified by removing the bottom seek bar and song bar header.\r\n\r\n### Lyrics\r\n- **Faster fetching:** Lyric requests are bounded and shared between callers, which reduces latency.\r\n- **Long metadata:** Long track titles and artists now scroll.\r\n\r\n### Extensions\r\n- **Better matching:** Search queries are cleaned of feature tags and clutter. Matching now requires the artist to agree and respects requested versions such as remix or live, so a different song is no longer substituted.\r\n- **Faster connections:** DNS handling is improved for Vercel-hosted endpoints, and requests have explicit timeouts.\r\n- **Cleaner endpoints:** `/manifest.json` and trailing slashes are removed from extension URLs.\r\n\r\n### Android Auto\r\n- **Stable Home shelves:** Shelves are cached and refreshed in the background, so they no longer appear and disappear between visits. Empty shelves are hidden.\r\n\r\n### Security\r\n- **Safer AI endpoints:** Custom AI endpoints now default to HTTPS, and requests to cloud metadata addresses are blocked (#614).\r\n\r\n## Bug Fixes\r\n\r\n- Fixed volume fluctuations while the next track was prebuffering (#607).\r\n- Fixed the background service staying active after clearing the app from recent tasks (#603).\r\n- Fixed artist names containing \"&\" showing as fragments such as \"amp;\" in the player, playlists, and search (#640).\r\n- Fixed downloaded songs not sorting by download date (#605).\r\n- Fixed a crash when opening Stats for songs without artwork (#646).\r\n- Fixed the wrong track playing when selecting a downloaded song (#666).\r\n- Fixed being unable to remove a song from a playlist while it plays (#655).\r\n- Fixed extension queues repeating the first track's audio.\r\n- Fixed Cast showing the wrong progress and seek position in Music Flow.\r\n- Fixed the restored queue losing its continuation paging when the player started late.\r\n- Fixed a cancelled lyric request cancelling it for everyone waiting on the same lyrics.\r\n- Fixed YouTube radio continuation stopping after failed retries.\r\n- Fixed Blocked Artists not highlighting from settings search.\r\n- Fixed the playlist pause toggle.\r\n- Fixed missing or blank artwork in Android Auto, including covers falling back to the app icon.\r\n- Fixed Android Auto Home rows showing a warning icon or opening to empty shelves.\r\n- Fixed Home exclusions, download scheduling, export cancellation, lyrics timing, and settings routes.\r\n- Fixed an unescaped apostrophe in the French Varispeed description and a duplicate Spanish string.\r\n\r\n## Internal\r\n\r\n- Version bumped to 1.4.4 (versionCode 165).\r\n- Dependency updates: Guava 33.7.2-jre (#661), google-services 4.5.0 (#662), lottie-compose 6.7.1 (#659), reorderable 3.1.0 (#583), work-runtime-ktx 2.12.0 (#584), adaptive 1.4.0-alpha03 (#585), protobuf plugin 0.10.0 (#587).\r\n- Added tests for HTML entity cleanup, null-safe stats queries, queue selection, and seek behaviour.\r\n- Moved Android Auto artwork loading off the main thread and cached decoded covers.\r\n- Removed obsolete documentation files and updated repository URLs to EchoMusicApp/Echo-Music.\r\n- Added reference repositories to the ignore list.\r\n- Recorded fixes in `upcomingupdate.json`.\r\n\r\n## Contributors\r\n\r\nThank you to everyone who contributed to this release.\r\n\r\n- @iad1tya: Maintainer. Extension audio and lossless FLAC, Music Flow overhaul, Spotify library, network-aware audio quality, Stats crash fix.\r\n- @mdakashhossain1: Music Flow, hero carousel, lyric fetching, Cast and queue restore fixes, open issue review (#642, #643).\r\n- @gerry02: Android Auto artwork, Home recommendations, autoplay on connect, and extension matching fixes (#652, #657, #664, #665, #677).\r\n- @pranav6004: Endpoint security (#614), download sorting (#613), volume and task-clear fixes (#612), downloaded track playback fix (#674), playlist removal fix (#675).\r\n- @pranavxdevops: 10-second seek buttons (#623).\r\n- @bivekk51: HTML entity fix for artist names (#640).\r\n- @Berserkr2k: Spanish localisation (#647, #648).\r\n- @Mickael81: French localisation (#618, #656).\r\n- @TanvirSdq: Bengali localisation (#636).\r\n- @dependabot[bot]: Automated dependency updates.",
     "size": 88443408,
     "downloadUrl": "https://github.com/EchoMusicApp/Echo-Music/releases/download/v1.4.4/EchoMusic.apk",
-    "downloadCount": 108769,
+    "downloadCount": 111713,
     "variants": [
       {
         "filename": "EchoMusic.apk",
         "arch": "universal",
         "size": 88443408,
         "downloadUrl": "https://github.com/EchoMusicApp/Echo-Music/releases/download/v1.4.4/EchoMusic.apk",
-        "downloadCount": 108769
+        "downloadCount": 111713
       }
     ]
   },
@@ -133,21 +133,21 @@
     "releaseNotes": "- Added support for Shizuku.\r\n- Added Danish and Galician translation.\r\n- Changed encryption when creating ZIP archive from ZipCrypto to AES-256.\r\n- Material Design 2 theme may be removed in the upcoming version 1.8.0.\r\n- Other bug fixes and improvements.",
     "size": 10944578,
     "downloadUrl": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-fdroid.apk",
-    "downloadCount": 58468,
+    "downloadCount": 58701,
     "variants": [
       {
         "filename": "app-release-fdroid.apk",
         "arch": "universal",
         "size": 10944578,
         "downloadUrl": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-fdroid.apk",
-        "downloadCount": 7473
+        "downloadCount": 7520
       },
       {
         "filename": "app-release-universal.apk",
         "arch": "universal",
         "size": 13747821,
         "downloadUrl": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-universal.apk",
-        "downloadCount": 50995
+        "downloadCount": 51181
       }
     ]
   },
@@ -156,14 +156,14 @@
     "releaseNotes": "App Manager v4.1.1 improves permissions, installation, ADB connectivity, and several other parts of the application. Visit Settings > About > Version/Changelog for details.\r\n\r\n**Revoke Internet Permission**\r\nApp Manager can now block internet for individual applications utilizing the eBPF rules in root or ADB mode. To block internet for an application, go to the \"Uses permissions\" tab and click on the toggle button next to `android.permission.INTERNET` to revoke the permission.\r\n  \r\n_Known Limitation._ The eBPF rules are lost after a reboot. App Manager attempts to restore the rules right after a reboot. However, in ADB mode, it might take a while to connect to wireless debugging depending on the availability of a Wi-Fi connection. This might allow applications that start after a reboot to use internet.  \r\n\r\n**Others**\r\n- Added support for editing `.bat` files  \r\n- Improved installation reliability and performance  \r\n- Improved permission management  \r\n- Improved ADB pairing, connections, and mode handling  \r\n- Improved settings transitions and startup messages  \r\n- Fixed displaying profiles after creating a profile for the first time  \r\n- Fixed intercepting browser URLs  \r\n- Fixed listing applications on Android 17  \r\n- Fixed title ordering in What's New dialog.  \r\n\r\n**Full Changelog**: https://github.com/MuntashirAkon/AppManager/compare/v4.1.0...v4.1.1",
     "size": 28270163,
     "downloadUrl": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.1.1/AppManager_v4.1.1.apk",
-    "downloadCount": 64684,
+    "downloadCount": 64896,
     "variants": [
       {
         "filename": "AppManager_v4.1.1.apk",
         "arch": "universal",
         "size": 28270163,
         "downloadUrl": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.1.1/AppManager_v4.1.1.apk",
-        "downloadCount": 64684
+        "downloadCount": 64896
       }
     ]
   },
@@ -172,14 +172,14 @@
     "releaseNotes": "Official Revanced Patches\r\nRevanced CLI\r\nBase apk version : 4.3.0\r\nApk source : Apkmirror",
     "size": 134657717,
     "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Lightroom/com.adobe.lrmobile_9.3.0_revanced_patched.apk",
-    "downloadCount": 15348,
+    "downloadCount": 15364,
     "variants": [
       {
         "filename": "com.adobe.lrmobile_9.3.0_revanced_patched.apk",
         "arch": "universal",
         "size": 134657717,
         "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Lightroom/com.adobe.lrmobile_9.3.0_revanced_patched.apk",
-        "downloadCount": 15348
+        "downloadCount": 15364
       }
     ]
   },
@@ -188,14 +188,14 @@
     "releaseNotes": "- Renew web server TLS certificate\r\n- Update Android gradle plugin\r\n\r\nSpecial thanks to masudscloud for its bug report.",
     "size": 13955875,
     "downloadUrl": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk",
-    "downloadCount": 508340,
+    "downloadCount": 508495,
     "variants": [
       {
         "filename": "AdAway-6.1.4-20241027.apk",
         "arch": "universal",
         "size": 13955875,
         "downloadUrl": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk",
-        "downloadCount": 508340
+        "downloadCount": 508495
       }
     ]
   },
@@ -204,42 +204,42 @@
     "releaseNotes": "### Fixes\r\n- Update python to 3.11\r\n\r\n\r\n**Full Changelog**: https://github.com/JunkFood02/Seal/compare/v1.13.0...v1.13.1",
     "size": 43069442,
     "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-arm64-v8a-release.apk",
-    "downloadCount": 2989300,
+    "downloadCount": 2990278,
     "variants": [
       {
         "filename": "Seal-1.13.1-arm64-v8a-release.apk",
         "arch": "arm64-v8a",
         "size": 43069442,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-arm64-v8a-release.apk",
-        "downloadCount": 2468134
+        "downloadCount": 2468802
       },
       {
         "filename": "Seal-1.13.1-armeabi-v7a-release.apk",
         "arch": "armeabi-v7a",
         "size": 40611853,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-armeabi-v7a-release.apk",
-        "downloadCount": 121218
+        "downloadCount": 121257
       },
       {
         "filename": "Seal-1.13.1-universal-release.apk",
         "arch": "universal",
         "size": 144991600,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-universal-release.apk",
-        "downloadCount": 318636
+        "downloadCount": 318875
       },
       {
         "filename": "Seal-1.13.1-x86-release.apk",
         "arch": "x86",
         "size": 44364789,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86-release.apk",
-        "downloadCount": 30993
+        "downloadCount": 31004
       },
       {
         "filename": "Seal-1.13.1-x86_64-release.apk",
         "arch": "x86_64",
         "size": 45218592,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86_64-release.apk",
-        "downloadCount": 50319
+        "downloadCount": 50340
       }
     ]
   },
@@ -248,14 +248,14 @@
     "releaseNotes": "## 🚀 Lumo Store v1.2.0 — Auto-Updates & Critical Fixes\r\n\r\nWelcome to **v1.2.0**! This is a major update that makes Lumo Store smarter and much more reliable. We've introduced an automatic update system for the app itself, completely redesigned the app details screen, and squashed some critical bugs that were affecting the user experience.\r\n\r\nHere is what's new, improved, and fixed in this release:\r\n\r\n### ✨ New Features\r\n*   **🔄 Self Auto-Update System:** Lumo Store can now check for its own updates! When a new version is available, you will get a beautiful prompt to update instantly. \r\n*   **⚙️ APK Variants Selection:** For apps that offer multiple architectures (ARM64, ARMv7, x86), you can now select the exact variant you want using a clean dropdown menu next to the Install button. This saves storage and improves performance.\r\n*   **📥 Real Download Counts:** We now fetch and display the **real download counts** directly from GitHub for every app.\r\n\r\n### 🎨 UI & UX Improvements\r\n*   **Redesigned App Details:** A much cleaner layout with a collapsible \"What's New\" changelog, easier variant selection, and a stunning new download confirmation dialog.\r\n*   **Better Install Flow:** The download progress bar is now properly anchored to the bottom of the screen, showing live download speeds, file sizes, and estimated time remaining.\r\n*   **Smarter Search:** The search bar now filters apps instantly by name as you type.\r\n\r\n### 🐛 Major Bug Fixes\r\n*   **Fixed \"Open\" Button Issue:** Apps that were already installed but not showing the \"Open\" button are now perfectly detected. We added multiple fallback detection methods to bypass Android 11+ package visibility restrictions.\r\n*   **Fixed False Update Prompts:** Resolved a critical version-comparison bug (caused by mismatched version formats like `v1.0` vs `1.0.0`) that incorrectly showed \"Update\" for apps that were already on the latest version.\r\n*   **Fixed Auto-Installer:** The Android OS installer dialog now automatically opens right after the download completes without getting stuck or hiding behind the app.\r\n*   **Fixed JSON Parsing Errors:** Resolved the issue where bad formatting in the remote `apps.json` file would cause the entire store to fail loading.\r\n\r\n---\r\n\r\n### 📲 Installation\r\n1. Download the `lumostore.apk` from the **Assets** section below.\r\n2. Enable \"Install from unknown sources\" if prompted.\r\n3. Tap the APK to install over your existing Lumo Store app.\r\n*(Your favorites, profile, and settings will be preserved!)*\r\n\r\n### 🌐 Links\r\n*   **Website:** [adityasaini404.github.io/LumoStore](https://adityasaini404.github.io/LumoStore/)\r\n*   **Source Code:** [github.com/adityasaini404/LumoStore](https://github.com/adityasaini404/LumoStore)\r\n*   **Catalog Repo:** [github.com/adityasaini404/lumo-store-apps](https://github.com/adityasaini404/lumo-store-apps)\r\n\r\n---\r\n**A huge thank you to everyone who tested the app and helped find these bugs. Lumo Store is growing fast!** 💜\r\n**Made with ❤️ in India by Aditya Saini.**",
     "size": 20559221,
     "downloadUrl": "https://github.com/adityasaini404/LumoStore/releases/download/v1.2.0/Lumostore.1.2.0.apk",
-    "downloadCount": 8,
+    "downloadCount": 10,
     "variants": [
       {
         "filename": "Lumostore.1.2.0.apk",
         "arch": "universal",
         "size": 20559221,
         "downloadUrl": "https://github.com/adityasaini404/LumoStore/releases/download/v1.2.0/Lumostore.1.2.0.apk",
-        "downloadCount": 8
+        "downloadCount": 10
       }
     ]
   }
