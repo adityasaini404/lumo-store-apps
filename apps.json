@@ -397,5 +397,18 @@
       "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/publishapp.png",
       "https://raw.githubusercontent.com/adityasaini404/LumoStore/main/assets/screenshots/theme.png"
     ]
+  },
+  {
+    "name": "ImageToolbox",
+    "id": "imagetoolbox",
+    "description": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+    "icon": "https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/logo/logo.png",
+    "repoUrl": "https://github.com/T8RIN/ImageToolbox",
+    "githubRepo": "T8RIN/ImageToolbox",
+    "category": "Tools",
+    "author": "T8RIN",
+    "packageName": "ru.tech.imageresizershrinker",
+    "screenshots": ["https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png","https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png","https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.png","https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.png","https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/05.png","https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/06.png","https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/phoneScreenshots/07.png"]
   }
+  
 ]
