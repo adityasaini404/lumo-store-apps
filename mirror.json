@@ -4,63 +4,63 @@
     "releaseNotes": "## What's Changed\r\n* Fix URL parsing for self-hosted instances. by @rauaap in https://github.com/ImranR98/Obtainium/pull/3472\r\n* fix: correct changelog links and preserve line breaks by @nyxiereal in https://github.com/ImranR98/Obtainium/pull/3471\r\n* Translation: Update ru.json by @solokot in https://github.com/ImranR98/Obtainium/pull/3463\r\n* Translation: Update hu.json by @summoner001 in https://github.com/ImranR98/Obtainium/pull/3462\r\n* Complete Simplified Chinese translations and clarify certificate prompts by @HotKids in https://github.com/ImranR98/Obtainium/pull/3460\r\n* Add a per-app install method setting by @bercedev in https://github.com/ImranR98/Obtainium/pull/3457\r\n* By @ImranR98 in https://github.com/ImranR98/Obtainium/pull/3479\r\n    * Fall back to dart:io when Android memory DCL is restricted (#3442)\r\n    * Fix signing certificate checks on Android 9 and 10 (#3475)\r\n    * Prefer the ABI-specific APK when the saved choice is universal (#3473)\r\n    * Remove the defunct APKCombo source (#3468)\r\n\r\n## New Contributors\r\n* @rauaap made their first contribution in https://github.com/ImranR98/Obtainium/pull/3472\r\n* @nyxiereal made their first contribution in https://github.com/ImranR98/Obtainium/pull/3471\r\n\r\n**Full Changelog**: https://github.com/ImranR98/Obtainium/compare/v1.7.3...v1.7.4",
     "size": 34609838,
     "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk",
-    "downloadCount": 100909,
+    "downloadCount": 104228,
     "variants": [
       {
         "filename": "app-arm64-v8a-fdroid-release.apk",
         "arch": "arm64-v8a",
         "size": 34609838,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk",
-        "downloadCount": 13977
+        "downloadCount": 14277
       },
       {
         "filename": "app-arm64-v8a-release.apk",
         "arch": "arm64-v8a",
         "size": 34609838,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-release.apk",
-        "downloadCount": 41526
+        "downloadCount": 43487
       },
       {
         "filename": "app-armeabi-v7a-fdroid-release.apk",
         "arch": "armeabi-v7a",
         "size": 30554808,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-armeabi-v7a-fdroid-release.apk",
-        "downloadCount": 703
+        "downloadCount": 717
       },
       {
         "filename": "app-armeabi-v7a-release.apk",
         "arch": "armeabi-v7a",
         "size": 30571192,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-armeabi-v7a-release.apk",
-        "downloadCount": 2202
+        "downloadCount": 2305
       },
       {
         "filename": "app-fdroid-release.apk",
         "arch": "universal",
         "size": 94166453,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-fdroid-release.apk",
-        "downloadCount": 4473
+        "downloadCount": 4554
       },
       {
         "filename": "app-release.apk",
         "arch": "universal",
         "size": 94182837,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-release.apk",
-        "downloadCount": 36709
+        "downloadCount": 37537
       },
       {
         "filename": "app-x86_64-fdroid-release.apk",
         "arch": "x86_64",
         "size": 36936351,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-x86_64-fdroid-release.apk",
-        "downloadCount": 193
+        "downloadCount": 197
       },
       {
         "filename": "app-x86_64-release.apk",
         "arch": "x86_64",
         "size": 36936351,
         "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-x86_64-release.apk",
-        "downloadCount": 1126
+        "downloadCount": 1154
       }
     ]
   },
@@ -69,14 +69,14 @@
     "releaseNotes": "Welcome to the biggest update of PadhteRaho! We have completely rewritten the core engine and redesigned the app to give you a seamless, distraction-free learning experience. \r\n\r\n### 🎬 Brand New Pro Player (Powered by Media3)\r\n* **No More iFrame:** The old web-based player is gone. We now use a native, lightning-fast **ExoPlayer**.\r\n* **Gesture Controls:** Swipe up/down on the left for **Brightness**, right for **Volume**, and swipe horizontally to **Seek**.\r\n* **Smart Controls:** Double-tap to skip 10s, long-press to play at 2x speed.\r\n* **Picture-in-Picture (PiP):** Watch videos while using other apps.\r\n* **Lock Screen & Notification:** Control your video directly from the notification panel or lock screen.\r\n* **Resume Playback:** The app remembers exactly where you left off.\r\n\r\n### 🎨 Material 3 UI Redesign\r\n* **Fresh Home Screen:** Cleaner category grids, better typography, and a beautiful new search bar.\r\n* **Redesigned Notes & Settings:** Smooth animations, rounded corners, and a much more organized settings menu.\r\n* **New Dialogs:** Beautiful bottom sheets for Video Quality, Playback Speed, and Privacy Policies.\r\n\r\n### ⚙️ Under the Hood\r\n* **NewPipeExtractor:** Powered by NewPipe to bypass YouTube limits and fetch direct video streams.\r\n* **Hindi Audio Support:** Improved audio track selection.\r\n* **Cleaner Settings:** Removed unnecessary contact options. You can now reach out directly via Email.\r\n\r\n### 🐛 Bug Fixes & Improvements\r\n* Fixed the \"Video Unavailable\" crash completely.\r\n* Resolved the app crashing on the Settings screen.\r\n* Improved app startup speed and memory usage.\r\n\r\n**Note:** If you are updating from v1.0.0, this is a major update and we highly recommend downloading it for the best experience. \r\n\r\nHappy Learning! ❤️",
     "size": 15001761,
     "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v2.0.0/app-release.apk",
-    "downloadCount": 36,
+    "downloadCount": 43,
     "variants": [
       {
         "filename": "app-release.apk",
         "arch": "universal",
         "size": 15001761,
         "downloadUrl": "https://github.com/adityasaini404/PadhteRaho-Apk/releases/download/v2.0.0/app-release.apk",
-        "downloadCount": 36
+        "downloadCount": 43
       }
     ]
   },
@@ -85,14 +85,14 @@
     "releaseNotes": "Netly v1.4\r\nNew\r\nAuto-update: new versions download quietly in the background. You get a notification, and a one-tap install prompt when the download is ready.\r\nMetadata in downloads: title, artist, album and cover art are now saved inside your audio and video files.\r\nMusic app support: audio downloads are saved to Music/Netly, so they show up properly in your music player and gallery.\r\nPlayIt-style queue: the player now has a queue/playlist panel. You can drag to reorder, remove items, switch repeat modes, and see each item's quality and size.\r\nImproved\r\nFaster downloads: merging audio and video, and saving to storage, is now many times faster, especially for long lectures and big files.\r\nSmoother app: transitions, the navigation bar and the mini ↔ full player animation are faster and smoother.\r\nPlayer layout: fixed overlapping controls, and Play stays centered even when there is no Previous or Next.\r\nFixed\r\nInstagram reels and images that failed to download.\r\nAudio files not showing artist name or album art.",
     "size": 94943945,
     "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/1.4/Netly.apk",
-    "downloadCount": 345,
+    "downloadCount": 351,
     "variants": [
       {
         "filename": "Netly.apk",
         "arch": "universal",
         "size": 94943945,
         "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/Netly/releases/download/1.4/Netly.apk",
-        "downloadCount": 345
+        "downloadCount": 351
       }
     ]
   },
@@ -101,14 +101,14 @@
     "releaseNotes": "# SWAR Music v1.1\r\n\r\n## ✨ New Features\r\n\r\n**Now Playing & Playback**\r\n- Redesigned Now Playing screen with a Song/Video toggle, and a Like / Lyrics / Save / Download action row\r\n- Album art now rotates (vinyl-style) during playback, with a rotational drag gesture on the art to seek forward/backward (audio mode only)\r\n- Smooth, symmetric shared-element animation between the mini player and the Now Playing screen, in both directions\r\n- Mini player now continues playing actual video (not just a static thumbnail) when collapsing from Video mode\r\n- Picture-in-Picture (PiP) support for video playback, including auto-enter on Home button press\r\n- Video quality selector (Auto / 1080p / 720p / 480p), shown only in Video mode\r\n- Audio now streams at the highest available quality\r\n\r\n**Search & Discovery**\r\n- Search-as-you-type suggestions\r\n- A highlighted \"Top Result\" card above regular search results for the best-matching track\r\n- Songs played from Search now continue with related-song recommendations (instead of just the next search result), using both YouTube's related data and keyword matching, refined over time based on which songs get skipped quickly\r\n- India-focused Home recommendations (Bollywood, regional, trending charts) with filtering to exclude movies, trailers, and other non-song content from search and suggestions\r\n- Additional swipeable rows on Home: Trending, Made For You, and Based on Your History\r\n\r\n**Library & Playlists**\r\n- Full custom + YouTube-imported playlist support, including sharing and individually deleting any playlist\r\n- A 3-dot menu on every song (Home, Search, and inside playlists) with Like, Save/Remove from playlist, Download/Delete, Share, and Add to Queue\r\n- Confirmation prompts before any delete/remove action app-wide\r\n- Swipeable Library categories (Playlists / Downloads / Liked / History)\r\n- Offline message with a direct shortcut to your downloaded music when there's no internet connection\r\n\r\n**Settings & Updates**\r\n- Full Settings screen: Account, Appearance (including Light/Dark/Follow System), Playback, Downloads, Data Usage, Notifications, Library & History, Privacy, Backup, and About\r\n- In-app update checker connected to GitHub Releases — notifies you on every launch until you update\r\n- \"Share SWAR Music\" option to invite others to the app\r\n\r\n**Downloads**\r\n- Offline downloads now reliably save to your device and play back with no internet connection, and are preferred automatically even when you're online\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Fixed a launch crash and added built-in crash diagnostics for easier troubleshooting\r\n- Fixed search and playback failures caused by an outdated extractor and missing initialization\r\n- Fixed the wrong song playing when tapping a search result\r\n- Fixed severely throttled download speeds and inaccurate/jumpy download progress\r\n- Fixed downloads disappearing after reaching 100%, and downloads not saving an actual file to the device\r\n- Fixed the Like button not saving your liked songs\r\n- Fixed overlapping/broken layout on the Search screen and Now Playing screen (status bar overlap, misaligned header, broken result rows)\r\n- Fixed album art rendering upside-down, and a brief wrong-shape flash during player collapse\r\n- Fixed the mini player being taller than intended\r\n- Fixed theme colors not updating immediately when switching between Light and Dark\r\n- Fixed Library screen layout issues (count label, header not scrolling, visual corner glitches on cards)\r\n- Fixed inconsistent/duplicate entries on the Downloads screen\r\n- Fixed ads not displaying correctly (wrong sizing, a non-functional ad unit, one ad slot not loading) and an ad overlapping the mini player\r\n- Fixed a crash related to the search engine in release builds\r\n- Fixed all user data being lost on every app update\r\n- Removed playlists that shipped built into the app — your Library now only shows playlists you've created or saved\r\n- \"Download only on Wi-Fi\" is now off by default, so downloads work on mobile data out of the box\r\n- ",
     "size": 33652226,
     "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk",
-    "downloadCount": 810,
+    "downloadCount": 811,
     "variants": [
       {
         "filename": "SWAR.Music.apk",
         "arch": "universal",
         "size": 33652226,
         "downloadUrl": "https://github.com/sumitkumartiwari19-sudo/SWAR-Music/releases/download/v1.1/SWAR.Music.apk",
-        "downloadCount": 810
+        "downloadCount": 811
       }
     ]
   },
@@ -117,14 +117,14 @@
     "releaseNotes": "This release focuses on smoother Google sign-in, sessions that stay put, and a cleaner way back to the main app. Here's what's new.\r\n\r\n## Highlights\r\n\r\n- **Smoother Google sign-in:** Two-factor authentication challenges no longer stall.\r\n- **Stay signed in:** Account cookies and credentials now persist across sessions.\r\n- **Cleaner navigation:** Finishing sign-in returns you to the main app instead of closing it.\r\n\r\n## New Features\r\n\r\n### Account\r\n\r\n- **Persistent sign-in:** Account cookies and credentials are now kept between sessions, so you no longer need to sign in again each time you open the app.\r\n\r\n## Improvements\r\n\r\n### Google Sign-In\r\n\r\n- **Fuller browser support:** The sign-in view now supports DOM storage, databases, multiple windows, and third-party cookies, which Google's sign-in pages depend on.\r\n- **Google authentication domains:** Essential Google domains, such as `googleapis` and `gstatic`, are now allowed to load in `shouldOverrideUrlLoading`, so sign-in pages no longer fail partway through.\r\n\r\n## Bug Fixes\r\n\r\n- Fixed Google two-factor authentication stalling in the embedded sign-in view, by masking the embedded WebView signature in the User-Agent.\r\n- Fixed the app closing abruptly after sign-in. `Runtime.getRuntime().exit(0)` has been replaced with Jetpack Compose navigation back to the main app.\r\n\r\n## Contributors\r\n\r\nThank you to everyone who contributed to this release.\r\n\r\n- [@iad1tya](https://github.com/iad1tya): Maintainer. Google sign-in and 2FA fixes, session persistence, navigation change, and release bump.",
     "size": 158276819,
     "downloadUrl": "https://github.com/EchoMusicApp/Echo-Music/releases/download/v1.4.6/EchoMusic.apk",
-    "downloadCount": 85241,
+    "downloadCount": 88879,
     "variants": [
       {
         "filename": "EchoMusic.apk",
         "arch": "universal",
         "size": 158276819,
         "downloadUrl": "https://github.com/EchoMusicApp/Echo-Music/releases/download/v1.4.6/EchoMusic.apk",
-        "downloadCount": 85241
+        "downloadCount": 88879
       }
     ]
   },
@@ -133,21 +133,21 @@
     "releaseNotes": "- Added support for Shizuku.\r\n- Added Danish and Galician translation.\r\n- Changed encryption when creating ZIP archive from ZipCrypto to AES-256.\r\n- Material Design 2 theme may be removed in the upcoming version 1.8.0.\r\n- Other bug fixes and improvements.",
     "size": 10944578,
     "downloadUrl": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-fdroid.apk",
-    "downloadCount": 71000,
+    "downloadCount": 71233,
     "variants": [
       {
         "filename": "app-release-fdroid.apk",
         "arch": "universal",
         "size": 10944578,
         "downloadUrl": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-fdroid.apk",
-        "downloadCount": 9797
+        "downloadCount": 9842
       },
       {
         "filename": "app-release-universal.apk",
         "arch": "universal",
         "size": 13747821,
         "downloadUrl": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-universal.apk",
-        "downloadCount": 61203
+        "downloadCount": 61391
       }
     ]
   },
@@ -156,14 +156,14 @@
     "releaseNotes": "App Manager v4.1.1 improves permissions, installation, ADB connectivity, and several other parts of the application. Visit Settings > About > Version/Changelog for details.\r\n\r\n**Revoke Internet Permission**\r\nApp Manager can now block internet for individual applications utilizing the eBPF rules in root or ADB mode. To block internet for an application, go to the \"Uses permissions\" tab and click on the toggle button next to `android.permission.INTERNET` to revoke the permission.\r\n  \r\n_Known Limitation._ The eBPF rules are lost after a reboot. App Manager attempts to restore the rules right after a reboot. However, in ADB mode, it might take a while to connect to wireless debugging depending on the availability of a Wi-Fi connection. This might allow applications that start after a reboot to use internet.  \r\n\r\n**Others**\r\n- Added support for editing `.bat` files  \r\n- Improved installation reliability and performance  \r\n- Improved permission management  \r\n- Improved ADB pairing, connections, and mode handling  \r\n- Improved settings transitions and startup messages  \r\n- Fixed displaying profiles after creating a profile for the first time  \r\n- Fixed intercepting browser URLs  \r\n- Fixed listing applications on Android 17  \r\n- Fixed title ordering in What's New dialog.  \r\n\r\n**Full Changelog**: https://github.com/MuntashirAkon/AppManager/compare/v4.1.0...v4.1.1",
     "size": 28270163,
     "downloadUrl": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.1.1/AppManager_v4.1.1.apk",
-    "downloadCount": 82098,
+    "downloadCount": 82336,
     "variants": [
       {
         "filename": "AppManager_v4.1.1.apk",
         "arch": "universal",
         "size": 28270163,
         "downloadUrl": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.1.1/AppManager_v4.1.1.apk",
-        "downloadCount": 82098
+        "downloadCount": 82336
       }
     ]
   },
@@ -172,14 +172,14 @@
     "releaseNotes": "Official Revanced Patches\r\nRevanced CLI\r\nBase apk version : 4.3.0\r\nApk source : Apkmirror",
     "size": 134657717,
     "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Lightroom/com.adobe.lrmobile_9.3.0_revanced_patched.apk",
-    "downloadCount": 16668,
+    "downloadCount": 16674,
     "variants": [
       {
         "filename": "com.adobe.lrmobile_9.3.0_revanced_patched.apk",
         "arch": "universal",
         "size": 134657717,
         "downloadUrl": "https://github.com/RookieEnough/Orion-Data/releases/download/Lightroom/com.adobe.lrmobile_9.3.0_revanced_patched.apk",
-        "downloadCount": 16668
+        "downloadCount": 16674
       }
     ]
   },
@@ -188,14 +188,14 @@
     "releaseNotes": "- Renew web server TLS certificate\r\n- Update Android gradle plugin\r\n\r\nSpecial thanks to masudscloud for its bug report.",
     "size": 13955875,
     "downloadUrl": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk",
-    "downloadCount": 519459,
+    "downloadCount": 519630,
     "variants": [
       {
         "filename": "AdAway-6.1.4-20241027.apk",
         "arch": "universal",
         "size": 13955875,
         "downloadUrl": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk",
-        "downloadCount": 519459
+        "downloadCount": 519630
       }
     ]
   },
@@ -204,42 +204,42 @@
     "releaseNotes": "### Fixes\r\n- Update python to 3.11\r\n\r\n\r\n**Full Changelog**: https://github.com/JunkFood02/Seal/compare/v1.13.0...v1.13.1",
     "size": 43069442,
     "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-arm64-v8a-release.apk",
-    "downloadCount": 3056707,
+    "downloadCount": 3057738,
     "variants": [
       {
         "filename": "Seal-1.13.1-arm64-v8a-release.apk",
         "arch": "arm64-v8a",
         "size": 43069442,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-arm64-v8a-release.apk",
-        "downloadCount": 2516866
+        "downloadCount": 2517607
       },
       {
         "filename": "Seal-1.13.1-armeabi-v7a-release.apk",
         "arch": "armeabi-v7a",
         "size": 40611853,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-armeabi-v7a-release.apk",
-        "downloadCount": 123638
+        "downloadCount": 123667
       },
       {
         "filename": "Seal-1.13.1-universal-release.apk",
         "arch": "universal",
         "size": 144991600,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-universal-release.apk",
-        "downloadCount": 332355
+        "downloadCount": 332578
       },
       {
         "filename": "Seal-1.13.1-x86-release.apk",
         "arch": "x86",
         "size": 44364789,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86-release.apk",
-        "downloadCount": 31911
+        "downloadCount": 31926
       },
       {
         "filename": "Seal-1.13.1-x86_64-release.apk",
         "arch": "x86_64",
         "size": 45218592,
         "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-x86_64-release.apk",
-        "downloadCount": 51937
+        "downloadCount": 51960
       }
     ]
   },
@@ -264,63 +264,63 @@
     "releaseNotes": "## What's Changed\r\n\r\n### New Features\r\n\r\n* Added support for AV2-based AVIF images\r\n* Added chroma subsampling selection for AVIF and HEIC formats\r\n* Added VVC encoding support for HEIF format\r\n* Added Batch Rename tool\r\n* Added ability to cancel loading in spot heal draw mode by #2944\r\n* Added ability to use slices in original name filename pattern by #2951\r\n* Added new filename patterns: Parent Folder, UUID\r\n* Added ability to move and customize markup layers menu by #2941\r\n* Added Auto White Balance filter by #2953\r\n* Added LSB and FD modes for hidden watermarks\r\n* Added settings to control the cache limit and automatic clearing interval\r\n* Added ability to make crop overlay undraggable\r\n* Added a GIF merging tool\r\n* Added ability to select a folder as an image source by #2961\r\n* Added the Duplicate Finder tool\r\n* Added long-press reset for editable slider values\r\n* Added more formats for color copying\r\n* Added natural filename sorting, reverse order, and shuffle options to sort button\r\n* Added quick actions to move items to the start or end of reorder lists\r\n* Added ability to save custom aspect ratios by #2968\r\n* Added ability to export barcodes to SVG format by #2978\r\n* Added 74 new procedural textures to the texture generator\r\n* Added search, categories and favorites to texture generation tool\r\n* Added ability to choose deletion presets in Delete EXIF tool\r\n* Added panorama image stitching mode by #2988\r\n* Added ability to preview AI Tool results before saving\r\n* Added customizable RAW development settings\r\n* Added G’MIC filter engine\r\n* Added 167 new filters based on new engine\r\n* Added Gradient Map filter\r\n* Added ability to toggle nested scroll for sheets by #2997\r\n* Added ability to save images that are already below the size limit in the Resize by Weight tool\r\n* Added 3 new scale modes by #2999\r\n  - Magic Kernel\r\n  - Magic Kernel Sharp 2013\r\n  - Magic Kernel Sharp 2021\r\n* Added an option to return after saving external edits by #3003\r\n* Added ability to write ImageToolbox processing information into image metadata by #3004\r\n* Added EXIF read/write support for HEIC, AVIF, JXL, TIFF and JP2\r\n* Added EXIF 3.1 support\r\n* Added Jixel encoder for JXL format\r\n* Added support for REVIEW intent actions by #3014\r\n* Added 9 new tone curves for color adjustment\r\n  - CMYK\r\n  - Lab\r\n  - Hue vs Sat\r\n  - Hue vs Hue\r\n  - Hue vs Luma\r\n  - Luma vs Sat\r\n  - Luma vs Hue\r\n  - Sat vs Sat\r\n  - Color Wheels\r\n* Added separate Tone Curves tool\r\n* Added ability to view waveform and vector scope in Tone Curves\r\n* Added undo/redo options to crop tool by #3032\r\n* Added 4 style transfer AI models by #3034\r\n* Added ability to export/import tone presets in Tone Curves tool by #3031\r\n* Added 61 built-in export profiles for social networks\r\n* Added 7 new PDF tools:\r\n  - Contact Sheet\r\n  - Compare\r\n  - Resize\r\n  - Sanitize\r\n  - Palette Export\r\n  - Dark Mode\r\n  - Comic to PDF\r\n* Added screenshot mode to Image Stitching tool\r\n* Added 3 new filter groups: Frames, Enhancement, Artistic\r\n* Added a Photomosaic tool\r\n* Added a Multi-frame fusion tool\r\n* Added 14 depth AI models to create depth map and smart effects\r\n* Added Compression Lab tool to compare formats, optimize quality and file size\r\n* Added Recent Tools in Share Sheet by #3054\r\n* Added ability to specify defaults in settings for text markup layers by #3061\r\n* Added 11 AI image detector models by #3063\r\n* Added ability to import palettes to gradient maker tool by #3068\r\n* Added 9 conversion tools by #3071 and #3073\r\n  - GIF to APNG\r\n  - WEBP to GIF\r\n  - APNG to GIF\r\n  - APNG to WEBP\r\n  - WEBP to APNG\r\n  - WEBP to JXL\r\n  - JXL to GIF\r\n  - JXL to APNG\r\n  - JXL to WEBP\r\n* Added 3 merge tools\r\n  - Merge APNG\r\n  - Merge WEBP\r\n  - Merge JXL\r\n* Added Archive Tools with 32 archive creation options and broad extraction support\r\n* Added Code Preview Generator tool\r\n* Added precise selection of threshold to pixel by pixel comparison mode by #3091\r\n* Added a Gallery Viewer tool for browsing and previewing images in formats unsupported by system galleries by #3090\r\n* Added .CLRS palette format support by #3103\r\n* Added Template Filters manager by #3096\r\n* Added Fractals tool to generate 75 different types of fractals by #3105\r\n* Added 75 built-in gradient palettes\r\n* Added gradient palette presets to Gradient Maker and Texture Generation\r\n* Added ability to undo/redo to Gradient Maker tool\r\n\r\n### Improvements\r\n\r\n* Improved AVIF and HEIC encoding/decoding performance\r\n* Improved original filename and sequence filename patterns\r\n* Improved overall cropping experience by #2942\r\n* Improved and optimized hidden watermark encoding and detection\r\n* Improved hidden watermark detection feedback and result handling\r\n* Improved multilingual text handling in PDF files by #2964\r\n* Improved usability of long-press save menu\r\n* Improved resource download process by #2985\r\n* Improved file encryption with secure key derivation and unique nonces by #2990\r\n* Improved RAW decoding with LibRaw and enhanced TIFF support\r\n* Improved pixel-by-pixel comparison metrics and added score display\r\n* Improved tone curves editor with flexible control points and per-channel histograms by #3018\r\n* Improved row and column count in Image Stitching tool by #3027\r\n* Improved images folder picker speed\r\n* Improved ICO export with multiple embedded sizes: 16, 32, 48, 64, 128, and 256 px\r\n* Improved UI and interactions\r\n\r\n### Fixes\r\n\r\n* Fixed rotation buttons for RTL languages by #2946\r\n* Fixed compare slider lag by #2945\r\n* Fixed GIF encoder transparency\r\n* Fixed progress service issues by #2977\r\n* Fixed “All files access” prompts appearing when the permission cannot be requested by #2982\r\n* Fixed Resize & Convert ignoring the “Always clear EXIF” setting for single images by #2989\r\n* Fixed saving to the original folder and overwriting files\r\n* Fixed an issue where a combination of three settings could lead to file loss by #3002\r\n* Fixed draw tool for text brush by #3010\r\n* Fixed mesh gradient rendering on some devices by #3017\r\n* Fixed split PDF tool by #3037\r\n* Fixed crop with aspect ratio output by #3048\r\n* Fixed swipes on image container by #3051 \r\n* Fixed GIF conversion issues\r\n* Fixed AI tools processing cancellation by #3076\r\n* Fixed crash in PDF signature tool by #3086\r\n* Fixed sharing to other apps by #3087\r\n* Fixed nearest scale mode by #3089\r\n* Fixed JXL tools bypass when overwrite files enabled by #3088\r\n* Fixed animated images preview in preview modes by #3097\r\n* Fixed Spanish translation by #3111\r\n* Fixed undo redo for template filters by #3114\r\n* Other minor bug fixes\r\n\r\n**Full Changelog**: https://github.com/T8RIN/ImageToolbox/compare/4.1.0...4.2.0",
     "size": 117873788,
     "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-arm64-v8a.apk",
-    "downloadCount": 52854,
+    "downloadCount": 52983,
     "variants": [
       {
         "filename": "image-toolbox-4.2.0-arm64-v8a.apk",
         "arch": "arm64-v8a",
         "size": 117873788,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-arm64-v8a.apk",
-        "downloadCount": 23682
+        "downloadCount": 23746
       },
       {
         "filename": "image-toolbox-4.2.0-armeabi-v7a.apk",
         "arch": "armeabi-v7a",
         "size": 108551406,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-armeabi-v7a.apk",
-        "downloadCount": 746
+        "downloadCount": 747
       },
       {
         "filename": "image-toolbox-4.2.0-foss-arm64-v8a.apk",
         "arch": "arm64-v8a",
         "size": 107826476,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-foss-arm64-v8a.apk",
-        "downloadCount": 18414
+        "downloadCount": 18446
       },
       {
         "filename": "image-toolbox-4.2.0-foss-armeabi-v7a.apk",
         "arch": "armeabi-v7a",
         "size": 99700122,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-foss-armeabi-v7a.apk",
-        "downloadCount": 623
+        "downloadCount": 625
       },
       {
         "filename": "image-toolbox-4.2.0-foss-universal.apk",
         "arch": "universal",
         "size": 226172367,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-foss-universal.apk",
-        "downloadCount": 5473
+        "downloadCount": 5490
       },
       {
         "filename": "image-toolbox-4.2.0-foss-x86_64.apk",
         "arch": "x86_64",
         "size": 121687175,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-foss-x86_64.apk",
-        "downloadCount": 428
+        "downloadCount": 429
       },
       {
         "filename": "image-toolbox-4.2.0-universal.apk",
         "arch": "universal",
         "size": 250744403,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-universal.apk",
-        "downloadCount": 2964
+        "downloadCount": 2975
       },
       {
         "filename": "image-toolbox-4.2.0-x86_64.apk",
         "arch": "x86_64",
         "size": 131800017,
         "downloadUrl": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-x86_64.apk",
-        "downloadCount": 524
+        "downloadCount": 525
       }
     ]
   }
