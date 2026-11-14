@@ -33,19 +33,21 @@
   ]
 },
   {
-    "name": "SKT Music Player ",
-    "id": "sktmusicplayer",
-    "description": "SKT Music Player is a modern offline Android music player with a beautiful Material Design UI, fast performance, playlist support, lyrics, and smooth playback.",
-    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/img_app_icon.jpg",
-    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/SKT-music-player",
-    "githubRepo": "sumitkumartiwari19-sudo/SKT-music-player",
+    "name": "Netly ",
+    "id": "netly",
+    "description": "Netly is an Android media downloader focused on providing a clean and easy-to-use experience for downloading video and audio content.",
+    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/netly_app_logo_1785996012538.jpg",
+    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/Netly",
+    "githubRepo": "sumitkumartiwari19-sudo/Netly",
     "category": "Media",
     "author": "Sumit Kumar Tiwari ",
-    "packageName": "com.aistudio.sktmusicplayer.offlinesync",
-    "screenshots": ["https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-13-43-00_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-13-53-59_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-14-12-33_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
-      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-14-20-17_f5db120ad8037f3fa6a63131d2a4b5cf.jpg"]
+    "packageName": "com.skt.netly",
+    "screenshots": [
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-23-86_c3cf8b3ee7f115f3eafd046e67a00e32.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-30-16_c3cf8b3ee7f115f3eafd046e67a00e32.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-35-24_c3cf8b3ee7f115f3eafd046e67a00e32.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/Netly/main/Screenshot_2026-08-17-07-36-48-44_c3cf8b3ee7f115f3eafd046e67a00e32.jpg"
+    ]
   },
   {
    "name": "SWAR Music ",
@@ -424,6 +426,21 @@
       "https://raw.githubusercontent.com/AKS-Labs/CircleToSearch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
       "https://raw.githubusercontent.com/AKS-Labs/CircleToSearch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
       "https://raw.githubusercontent.com/AKS-Labs/CircleToSearch/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png"]
+  },
+  {
+    "name": "SKT Music Player ",
+    "id": "sktmusicplayer",
+    "description": "SKT Music Player is a modern offline Android music player with a beautiful Material Design UI, fast performance, playlist support, lyrics, and smooth playback.",
+    "icon": "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/img_app_icon.jpg",
+    "repoUrl": "https://github.com/sumitkumartiwari19-sudo/SKT-music-player",
+    "githubRepo": "sumitkumartiwari19-sudo/SKT-music-player",
+    "category": "Media",
+    "author": "Sumit Kumar Tiwari ",
+    "packageName": "com.aistudio.sktmusicplayer.offlinesync",
+    "screenshots": ["https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-13-43-00_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-13-53-59_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-14-12-33_f5db120ad8037f3fa6a63131d2a4b5cf.jpg",
+      "https://raw.githubusercontent.com/sumitkumartiwari19-sudo/SKT-music-player/main/Screenshot_2026-07-11-09-14-20-17_f5db120ad8037f3fa6a63131d2a4b5cf.jpg"]
   }
-  
+
 ]
